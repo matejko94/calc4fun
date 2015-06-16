@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<string-array name="listArray">
+	<item>Degree</item>
+	<item>Radians</item>
+	
+</string-array>
+<string-array name="listValues">
+    <item>1</item>
+    <item>2</item>
+   
+</string-array>
+
+<string-array name="listHistoryArray">
+	<item>10</item>
+	<item>20</item>
+	<item>30</item>
+	<item>40</item>
+	<item>50</item>
+</string-array>
+<string-array name="listHistoryValues">
+    <item>10</item>
+    <item>20</item>
+	<item>30</item>
+	<item>40</item>
+	<item>50</item>   
+</string-array>
+
+</resources>

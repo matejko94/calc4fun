@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+
+
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@+string/from_currency_label"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/from_currency_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="24dp"
+            android:text="@+string/from_currency_amount_label"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/currency_converter_edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number|numberSigned|numberDecimal"
+            android:padding="12dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@+string/to_currency_label"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/to_currency_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp" />
+
+        <TextView
+            android:id="@+id/currency_conversion_output"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:paddingBottom="12dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/last_updated"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:paddingBottom="12dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:paddingBottom="12dp"
+            android:text="@+string/pravila"
+            android:textSize="18sp" />
+ 
+
+
+               </LinearLayout>
+
+

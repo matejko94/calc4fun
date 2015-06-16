@@ -1,0 +1,1769 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment: Fragment()
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context)
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost: void setup()
+android.support.v4.app.FragmentTabHost: void setup(android.content.Context,android.support.v4.app.FragmentManager)
+android.support.v4.app.FragmentTabHost: void setup(android.content.Context,android.support.v4.app.FragmentManager,int)
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.ListFragment: ListFragment()
+android.support.v4.app.NotificationCompatSideChannelService
+android.support.v4.content.FileProvider
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.WakefulBroadcastReceiver
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context)
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setPadding(int,int,int,int)
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setTextSize(int,float)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: void setCurrentItem(int,boolean)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setPageTransformer(boolean,android.support.v4.view.ViewPager$PageTransformer)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.ContentLoadingProgressBar
+android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context)
+android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setDrawerShadow(android.graphics.drawable.Drawable,int)
+android.support.v4.widget.DrawerLayout: void setDrawerShadow(int,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int,int)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int,android.view.View)
+android.support.v4.widget.DrawerLayout: void setDrawerTitle(int,java.lang.CharSequence)
+android.support.v4.widget.DrawerLayout$LayoutParams
+android.support.v4.widget.DrawerLayout$LayoutParams: DrawerLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SearchViewCompatIcs$MySearchView
+android.support.v4.widget.SearchViewCompatIcs$MySearchView: SearchViewCompatIcs$MySearchView(android.content.Context)
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$LayoutParams
+android.support.v4.widget.SlidingPaneLayout$LayoutParams: SlidingPaneLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout
+android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context)
+android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setTriggerPercentage(float)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setColorScheme(int,int,int,int)
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeResources(int,int,int,int)
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeColors(int,int,int,int)
+android.support.v4.widget.SwipeRefreshLayout: void setTargetOffsetTopAndBottom(int)
+com.Converter.myConverter.Unit.ArticleFragment
+com.Converter.myConverter.Unit.ArticleFragment: ArticleFragment()
+com.Converter.myConverter.Unit.EnotaMainHendler
+com.Converter.myConverter.Unit.EnotaMainHendler: EnotaMainHendler()
+com.Converter.myConverter.Unit.HeadlinesFragment
+com.Converter.myConverter.Unit.HeadlinesFragment: HeadlinesFragment()
+com.calculator.grap.GraphPanel
+com.calculator.grap.GraphPanel: GraphPanel(android.content.Context,android.util.AttributeSet,int)
+com.calculator.grap.GraphPanel: GraphPanel(android.content.Context)
+com.calculator.grap.GraphPanel: GraphPanel(android.content.Context,android.util.AttributeSet)
+com.calculator.grap.GraphView
+com.calculator.grap.GraphView: GraphView(android.content.Context)
+com.calculator.grap.GraphView: GraphView(android.content.Context,android.util.AttributeSet)
+com.calculator.grap.GraphView: GraphView(android.content.Context,android.util.AttributeSet,int)
+com.calculator.grap.GraphView: float getXAxisMin()
+com.calculator.grap.GraphView: float getXAxisMax()
+com.calculator.grap.GraphView: float getYAxisMin()
+com.calculator.grap.GraphView: float getYAxisMax()
+com.calculator.grap.GraphView: void setBackgroundColor(int)
+com.calculator.grap.GraphView: void setMode(android.view.MotionEvent)
+com.calculator.grap.GraphView: float getZoomLevel()
+com.calculator.grap.GraphView: void setZoomLevel(float)
+com.calculator.grap.GraphView: void setData(java.util.List)
+com.calculator.grap.GraphView: void setData(java.util.List,boolean)
+com.calculator.grap.GraphView: void setGridColor(int)
+com.calculator.grap.GraphView: void setTextColor(int)
+com.calculator.grap.GraphView: void setGraphColor(int)
+com.calculator.grap.GraphView: com.calculator.grap.GraphView$PanListener getPanListener()
+com.calculator.grap.GraphView: void setPanListener(com.calculator.grap.GraphView$PanListener)
+com.calculator.grap.GraphView: com.calculator.grap.GraphView$ZoomListener getZoomListener()
+com.calculator.grap.GraphView: void setZoomListener(com.calculator.grap.GraphView$ZoomListener)
+com.calculator.grap.GraphingTab
+com.calculator.grap.GraphingTab: GraphingTab()
+com.calculator.mycalculator.CalculatorGUI
+com.calculator.mycalculator.CalculatorGUI: CalculatorGUI()
+com.calculator.mycalculator.KeypadButton: com.calculator.mycalculator.KeypadButton[] values()
+com.calculator.mycalculator.KeypadButton: com.calculator.mycalculator.KeypadButton valueOf(java.lang.String)
+com.calculator.mycalculator.KeypadButtonCategory: com.calculator.mycalculator.KeypadButtonCategory[] values()
+com.calculator.mycalculator.KeypadButtonCategory: com.calculator.mycalculator.KeypadButtonCategory valueOf(java.lang.String)
+com.calculator.mycalculator.R$array: int listArray
+com.calculator.mycalculator.R$array: int listHistoryArray
+com.calculator.mycalculator.R$array: int listHistoryValues
+com.calculator.mycalculator.R$array: int listValues
+com.calculator.mycalculator.R$attr: int adSize
+com.calculator.mycalculator.R$attr: int adSizes
+com.calculator.mycalculator.R$attr: int adUnitId
+com.calculator.mycalculator.R$attr: int buyButtonAppearance
+com.calculator.mycalculator.R$attr: int buyButtonHeight
+com.calculator.mycalculator.R$attr: int buyButtonText
+com.calculator.mycalculator.R$attr: int buyButtonWidth
+com.calculator.mycalculator.R$attr: int cameraBearing
+com.calculator.mycalculator.R$attr: int cameraTargetLat
+com.calculator.mycalculator.R$attr: int cameraTargetLng
+com.calculator.mycalculator.R$attr: int cameraTilt
+com.calculator.mycalculator.R$attr: int cameraZoom
+com.calculator.mycalculator.R$attr: int environment
+com.calculator.mycalculator.R$attr: int fragmentMode
+com.calculator.mycalculator.R$attr: int fragmentStyle
+com.calculator.mycalculator.R$attr: int mapType
+com.calculator.mycalculator.R$attr: int maskedWalletDetailsBackground
+com.calculator.mycalculator.R$attr: int maskedWalletDetailsButtonBackground
+com.calculator.mycalculator.R$attr: int maskedWalletDetailsButtonTextAppearance
+com.calculator.mycalculator.R$attr: int maskedWalletDetailsHeaderTextAppearance
+com.calculator.mycalculator.R$attr: int maskedWalletDetailsLogoImageType
+com.calculator.mycalculator.R$attr: int maskedWalletDetailsLogoTextColor
+com.calculator.mycalculator.R$attr: int maskedWalletDetailsTextAppearance
+com.calculator.mycalculator.R$attr: int theme
+com.calculator.mycalculator.R$attr: int uiCompass
+com.calculator.mycalculator.R$attr: int uiRotateGestures
+com.calculator.mycalculator.R$attr: int uiScrollGestures
+com.calculator.mycalculator.R$attr: int uiTiltGestures
+com.calculator.mycalculator.R$attr: int uiZoomControls
+com.calculator.mycalculator.R$attr: int uiZoomGestures
+com.calculator.mycalculator.R$attr: int useViewLifecycle
+com.calculator.mycalculator.R$attr: int zOrderOnTop
+com.calculator.mycalculator.R$color: int LightSkyBlue
+com.calculator.mycalculator.R$color: int LightSkyWhite
+com.calculator.mycalculator.R$color: int black
+com.calculator.mycalculator.R$color: int calculatorBackground
+com.calculator.mycalculator.R$color: int calculatorButtonFocusStrokeColor
+com.calculator.mycalculator.R$color: int common_action_bar_splitter
+com.calculator.mycalculator.R$color: int common_signin_btn_dark_text_default
+com.calculator.mycalculator.R$color: int common_signin_btn_dark_text_disabled
+com.calculator.mycalculator.R$color: int common_signin_btn_dark_text_focused
+com.calculator.mycalculator.R$color: int common_signin_btn_dark_text_pressed
+com.calculator.mycalculator.R$color: int common_signin_btn_default_background
+com.calculator.mycalculator.R$color: int common_signin_btn_light_text_default
+com.calculator.mycalculator.R$color: int common_signin_btn_light_text_disabled
+com.calculator.mycalculator.R$color: int common_signin_btn_light_text_focused
+com.calculator.mycalculator.R$color: int common_signin_btn_light_text_pressed
+com.calculator.mycalculator.R$color: int common_signin_btn_text_dark
+com.calculator.mycalculator.R$color: int common_signin_btn_text_light
+com.calculator.mycalculator.R$color: int darkerButtonTextColor
+com.calculator.mycalculator.R$color: int darkgreen
+com.calculator.mycalculator.R$color: int darkgrey
+com.calculator.mycalculator.R$color: int digitsBackground
+com.calculator.mycalculator.R$color: int digitsBackgroundBorderStroke
+com.calculator.mycalculator.R$color: int digitsText
+com.calculator.mycalculator.R$color: int lighterButtonTextColor
+com.calculator.mycalculator.R$color: int lightyellow
+com.calculator.mycalculator.R$color: int red
+com.calculator.mycalculator.R$color: int redButtonTextColor
+com.calculator.mycalculator.R$color: int secondFunctionTextColor
+com.calculator.mycalculator.R$color: int wallet_bright_foreground_disabled_holo_light
+com.calculator.mycalculator.R$color: int wallet_bright_foreground_holo_dark
+com.calculator.mycalculator.R$color: int wallet_bright_foreground_holo_light
+com.calculator.mycalculator.R$color: int wallet_dim_foreground_disabled_holo_dark
+com.calculator.mycalculator.R$color: int wallet_dim_foreground_holo_dark
+com.calculator.mycalculator.R$color: int wallet_dim_foreground_inverse_disabled_holo_dark
+com.calculator.mycalculator.R$color: int wallet_dim_foreground_inverse_holo_dark
+com.calculator.mycalculator.R$color: int wallet_highlighted_text_holo_dark
+com.calculator.mycalculator.R$color: int wallet_highlighted_text_holo_light
+com.calculator.mycalculator.R$color: int wallet_hint_foreground_holo_dark
+com.calculator.mycalculator.R$color: int wallet_hint_foreground_holo_light
+com.calculator.mycalculator.R$color: int wallet_holo_blue_light
+com.calculator.mycalculator.R$color: int wallet_link_text_light
+com.calculator.mycalculator.R$color: int wallet_primary_text_holo_light
+com.calculator.mycalculator.R$color: int wallet_secondary_text_holo_dark
+com.calculator.mycalculator.R$color: int white
+com.calculator.mycalculator.R$color: int woodButtonTextColor
+com.calculator.mycalculator.R$dimen: int activity_horizontal_margin
+com.calculator.mycalculator.R$dimen: int activity_vertical_margin
+com.calculator.mycalculator.R$dimen: int buttonTextSize
+com.calculator.mycalculator.R$dimen: int buttonTextSizeLarger
+com.calculator.mycalculator.R$dimen: int calculatorButtonMargin
+com.calculator.mycalculator.R$dimen: int calculatorPaddingBottom
+com.calculator.mycalculator.R$dimen: int calculatorPaddingLeft
+com.calculator.mycalculator.R$dimen: int calculatorPaddingRight
+com.calculator.mycalculator.R$dimen: int calculatorPaddingTop
+com.calculator.mycalculator.R$dimen: int digitsTextSize
+com.calculator.mycalculator.R$dimen: int largecalculatorButtonMargin
+com.calculator.mycalculator.R$dimen: int largerButtonTextSizeLarger
+com.calculator.mycalculator.R$dimen: int navigation_drawer_width
+com.calculator.mycalculator.R$dimen: int secondaryTextSize
+com.calculator.mycalculator.R$dimen: int secondaryTextSizeSmall
+com.calculator.mycalculator.R$drawable: int appvertical1
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_disabled_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_disabled_focus_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_disabled_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_focus_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_focus_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_normal_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_normal_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_pressed_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_icon_pressed_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_disabled_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_disabled_focus_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_disabled_focus_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_disabled_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_focus_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_focus_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_normal_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_normal_light
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_pressed_dark
+com.calculator.mycalculator.R$drawable: int common_signin_btn_text_pressed_light
+com.calculator.mycalculator.R$drawable: int darker_button_background
+com.calculator.mycalculator.R$drawable: int darker_button_background_pressed
+com.calculator.mycalculator.R$drawable: int drawer_shadow
+com.calculator.mycalculator.R$drawable: int ic_drawer
+com.calculator.mycalculator.R$drawable: int ic_launcher
+com.calculator.mycalculator.R$drawable: int ic_plusone_medium_off_client
+com.calculator.mycalculator.R$drawable: int ic_plusone_small_off_client
+com.calculator.mycalculator.R$drawable: int ic_plusone_standard_off_client
+com.calculator.mycalculator.R$drawable: int ic_plusone_tall_off_client
+com.calculator.mycalculator.R$drawable: int inputview1
+com.calculator.mycalculator.R$drawable: int lighter_button_background
+com.calculator.mycalculator.R$drawable: int popupbg
+com.calculator.mycalculator.R$drawable: int powered_by_google_dark
+com.calculator.mycalculator.R$drawable: int powered_by_google_light
+com.calculator.mycalculator.R$drawable: int red_button_background
+com.calculator.mycalculator.R$drawable: int shape
+com.calculator.mycalculator.R$drawable: int shape_droptarget
+com.calculator.mycalculator.R$drawable: int stackview1
+com.calculator.mycalculator.R$drawable: int wood_button_background_pressed
+com.calculator.mycalculator.R$id: int DecimalSepSpace
+com.calculator.mycalculator.R$id: int LinearLayout1
+com.calculator.mycalculator.R$id: int PointSepComma
+com.calculator.mycalculator.R$id: int PointSepPoint
+com.calculator.mycalculator.R$id: int action_edit
+com.calculator.mycalculator.R$id: int action_help
+com.calculator.mycalculator.R$id: int action_history
+com.calculator.mycalculator.R$id: int action_settings
+com.calculator.mycalculator.R$id: int adView
+com.calculator.mycalculator.R$id: int adViewPom
+com.calculator.mycalculator.R$id: int article_fragment
+com.calculator.mycalculator.R$id: int backspace
+com.calculator.mycalculator.R$id: int book_now
+com.calculator.mycalculator.R$id: int bracketclose
+com.calculator.mycalculator.R$id: int bracketopen
+com.calculator.mycalculator.R$id: int button
+com.calculator.mycalculator.R$id: int button1
+com.calculator.mycalculator.R$id: int button10
+com.calculator.mycalculator.R$id: int button11
+com.calculator.mycalculator.R$id: int button12
+com.calculator.mycalculator.R$id: int button13
+com.calculator.mycalculator.R$id: int button14
+com.calculator.mycalculator.R$id: int button15
+com.calculator.mycalculator.R$id: int button16
+com.calculator.mycalculator.R$id: int button17
+com.calculator.mycalculator.R$id: int button18
+com.calculator.mycalculator.R$id: int button19
+com.calculator.mycalculator.R$id: int button2
+com.calculator.mycalculator.R$id: int button20
+com.calculator.mycalculator.R$id: int button21
+com.calculator.mycalculator.R$id: int button22
+com.calculator.mycalculator.R$id: int button23
+com.calculator.mycalculator.R$id: int button24
+com.calculator.mycalculator.R$id: int button25
+com.calculator.mycalculator.R$id: int button26
+com.calculator.mycalculator.R$id: int button27
+com.calculator.mycalculator.R$id: int button28
+com.calculator.mycalculator.R$id: int button29
+com.calculator.mycalculator.R$id: int button3
+com.calculator.mycalculator.R$id: int button30
+com.calculator.mycalculator.R$id: int button31
+com.calculator.mycalculator.R$id: int button32
+com.calculator.mycalculator.R$id: int button33
+com.calculator.mycalculator.R$id: int button34
+com.calculator.mycalculator.R$id: int button35
+com.calculator.mycalculator.R$id: int button36
+com.calculator.mycalculator.R$id: int button37
+com.calculator.mycalculator.R$id: int button38
+com.calculator.mycalculator.R$id: int button4
+com.calculator.mycalculator.R$id: int button5
+com.calculator.mycalculator.R$id: int button6
+com.calculator.mycalculator.R$id: int button7
+com.calculator.mycalculator.R$id: int button8
+com.calculator.mycalculator.R$id: int button9
+com.calculator.mycalculator.R$id: int buyButton
+com.calculator.mycalculator.R$id: int buy_now
+com.calculator.mycalculator.R$id: int buy_with_google
+com.calculator.mycalculator.R$id: int calculate
+com.calculator.mycalculator.R$id: int classic
+com.calculator.mycalculator.R$id: int clear
+com.calculator.mycalculator.R$id: int confirm
+com.calculator.mycalculator.R$id: int copy
+com.calculator.mycalculator.R$id: int cos
+com.calculator.mycalculator.R$id: int currency_conversion_output
+com.calculator.mycalculator.R$id: int currency_converter_edit_text
+com.calculator.mycalculator.R$id: int dec
+com.calculator.mycalculator.R$id: int decimalSepComma
+com.calculator.mycalculator.R$id: int decimalSepNone
+com.calculator.mycalculator.R$id: int decimalSepPoint
+com.calculator.mycalculator.R$id: int decimal_sep
+com.calculator.mycalculator.R$id: int details
+com.calculator.mycalculator.R$id: int div
+com.calculator.mycalculator.R$id: int eight
+com.calculator.mycalculator.R$id: int faculty
+com.calculator.mycalculator.R$id: int five
+com.calculator.mycalculator.R$id: int four
+com.calculator.mycalculator.R$id: int fragment_container
+com.calculator.mycalculator.R$id: int fragment_place
+com.calculator.mycalculator.R$id: int from_currency_spinner
+com.calculator.mycalculator.R$id: int graph
+com.calculator.mycalculator.R$id: int grayscale
+com.calculator.mycalculator.R$id: int grdButtons
+com.calculator.mycalculator.R$id: int gridview
+com.calculator.mycalculator.R$id: int headlines_fragment
+com.calculator.mycalculator.R$id: int holo_dark
+com.calculator.mycalculator.R$id: int holo_light
+com.calculator.mycalculator.R$id: int hybrid
+com.calculator.mycalculator.R$id: int imageView1
+com.calculator.mycalculator.R$id: int label
+com.calculator.mycalculator.R$id: int last_updated
+com.calculator.mycalculator.R$id: int list
+com.calculator.mycalculator.R$id: int ln
+com.calculator.mycalculator.R$id: int log
+com.calculator.mycalculator.R$id: int mainListView
+com.calculator.mycalculator.R$id: int match_parent
+com.calculator.mycalculator.R$id: int maxX
+com.calculator.mycalculator.R$id: int maxY
+com.calculator.mycalculator.R$id: int mc
+com.calculator.mycalculator.R$id: int minX
+com.calculator.mycalculator.R$id: int minY
+com.calculator.mycalculator.R$id: int minus
+com.calculator.mycalculator.R$id: int mminus
+com.calculator.mycalculator.R$id: int modulus
+com.calculator.mycalculator.R$id: int monochrome
+com.calculator.mycalculator.R$id: int mplus
+com.calculator.mycalculator.R$id: int mr
+com.calculator.mycalculator.R$id: int nine
+com.calculator.mycalculator.R$id: int none
+com.calculator.mycalculator.R$id: int normal
+com.calculator.mycalculator.R$id: int numbers
+com.calculator.mycalculator.R$id: int one
+com.calculator.mycalculator.R$id: int paste
+com.calculator.mycalculator.R$id: int plus
+com.calculator.mycalculator.R$id: int popup
+com.calculator.mycalculator.R$id: int position
+com.calculator.mycalculator.R$id: int power
+com.calculator.mycalculator.R$id: int production
+com.calculator.mycalculator.R$id: int radioDecimalSep
+com.calculator.mycalculator.R$id: int radioSep
+com.calculator.mycalculator.R$id: int reciproc
+com.calculator.mycalculator.R$id: int reset
+com.calculator.mycalculator.R$id: int rootView
+com.calculator.mycalculator.R$id: int sandbox
+com.calculator.mycalculator.R$id: int satellite
+com.calculator.mycalculator.R$id: int scrollView
+com.calculator.mycalculator.R$id: int scrollView1
+com.calculator.mycalculator.R$id: int selectionDetails
+com.calculator.mycalculator.R$id: int settings
+com.calculator.mycalculator.R$id: int seven
+com.calculator.mycalculator.R$id: int show_currency
+com.calculator.mycalculator.R$id: int sign
+com.calculator.mycalculator.R$id: int sin
+com.calculator.mycalculator.R$id: int six
+com.calculator.mycalculator.R$id: int sqrt_root
+com.calculator.mycalculator.R$id: int squared
+com.calculator.mycalculator.R$id: int strict_sandbox
+com.calculator.mycalculator.R$id: int tan
+com.calculator.mycalculator.R$id: int terrain
+com.calculator.mycalculator.R$id: int test
+com.calculator.mycalculator.R$id: int test1
+com.calculator.mycalculator.R$id: int test2
+com.calculator.mycalculator.R$id: int test4
+com.calculator.mycalculator.R$id: int test5
+com.calculator.mycalculator.R$id: int test6
+com.calculator.mycalculator.R$id: int test7
+com.calculator.mycalculator.R$id: int textItem
+com.calculator.mycalculator.R$id: int textItem1
+com.calculator.mycalculator.R$id: int textView1
+com.calculator.mycalculator.R$id: int textbox
+com.calculator.mycalculator.R$id: int textview
+com.calculator.mycalculator.R$id: int textview1
+com.calculator.mycalculator.R$id: int textview10
+com.calculator.mycalculator.R$id: int textview11
+com.calculator.mycalculator.R$id: int textview12
+com.calculator.mycalculator.R$id: int textview13
+com.calculator.mycalculator.R$id: int textview14
+com.calculator.mycalculator.R$id: int textview15
+com.calculator.mycalculator.R$id: int textview16
+com.calculator.mycalculator.R$id: int textview17
+com.calculator.mycalculator.R$id: int textview18
+com.calculator.mycalculator.R$id: int textview19
+com.calculator.mycalculator.R$id: int textview2
+com.calculator.mycalculator.R$id: int textview20
+com.calculator.mycalculator.R$id: int textview21
+com.calculator.mycalculator.R$id: int textview22
+com.calculator.mycalculator.R$id: int textview23
+com.calculator.mycalculator.R$id: int textview24
+com.calculator.mycalculator.R$id: int textview25
+com.calculator.mycalculator.R$id: int textview26
+com.calculator.mycalculator.R$id: int textview27
+com.calculator.mycalculator.R$id: int textview28
+com.calculator.mycalculator.R$id: int textview29
+com.calculator.mycalculator.R$id: int textview3
+com.calculator.mycalculator.R$id: int textview30
+com.calculator.mycalculator.R$id: int textview31
+com.calculator.mycalculator.R$id: int textview32
+com.calculator.mycalculator.R$id: int textview33
+com.calculator.mycalculator.R$id: int textview34
+com.calculator.mycalculator.R$id: int textview35
+com.calculator.mycalculator.R$id: int textview36
+com.calculator.mycalculator.R$id: int textview37
+com.calculator.mycalculator.R$id: int textview38
+com.calculator.mycalculator.R$id: int textview4
+com.calculator.mycalculator.R$id: int textview5
+com.calculator.mycalculator.R$id: int textview6
+com.calculator.mycalculator.R$id: int textview7
+com.calculator.mycalculator.R$id: int textview8
+com.calculator.mycalculator.R$id: int textview9
+com.calculator.mycalculator.R$id: int three
+com.calculator.mycalculator.R$id: int titles
+com.calculator.mycalculator.R$id: int to_currency_spinner
+com.calculator.mycalculator.R$id: int two
+com.calculator.mycalculator.R$id: int txtInput
+com.calculator.mycalculator.R$id: int txtMemory
+com.calculator.mycalculator.R$id: int txtStack
+com.calculator.mycalculator.R$id: int value
+com.calculator.mycalculator.R$id: int wrap_content
+com.calculator.mycalculator.R$id: int x
+com.calculator.mycalculator.R$id: int zero
+com.calculator.mycalculator.R$integer: int google_play_services_version
+com.calculator.mycalculator.R$layout: int activity_main
+com.calculator.mycalculator.R$layout: int article_view
+com.calculator.mycalculator.R$layout: int cordinat
+com.calculator.mycalculator.R$layout: int currency_converter
+com.calculator.mycalculator.R$layout: int custom_article_view
+com.calculator.mycalculator.R$layout: int customview
+com.calculator.mycalculator.R$layout: int decimalseparator
+com.calculator.mycalculator.R$layout: int drawsurface
+com.calculator.mycalculator.R$layout: int editbuttons
+com.calculator.mycalculator.R$layout: int fragment_01
+com.calculator.mycalculator.R$layout: int fragment_02
+com.calculator.mycalculator.R$layout: int fragment_layout
+com.calculator.mycalculator.R$layout: int grid
+com.calculator.mycalculator.R$layout: int gridview
+com.calculator.mycalculator.R$layout: int listpreference
+com.calculator.mycalculator.R$layout: int listview
+com.calculator.mycalculator.R$layout: int main
+com.calculator.mycalculator.R$layout: int news_articles
+com.calculator.mycalculator.R$layout: int popuplayout
+com.calculator.mycalculator.R$layout: int simplerow
+com.calculator.mycalculator.R$layout: int unit_category_chooser
+com.calculator.mycalculator.R$menu: int calculator_gui
+com.calculator.mycalculator.R$raw: int cas
+com.calculator.mycalculator.R$raw: int dolzina
+com.calculator.mycalculator.R$raw: int energija
+com.calculator.mycalculator.R$raw: int hitrost
+com.calculator.mycalculator.R$raw: int kot
+com.calculator.mycalculator.R$raw: int masa
+com.calculator.mycalculator.R$raw: int moc
+com.calculator.mycalculator.R$raw: int podatki
+com.calculator.mycalculator.R$raw: int povrsina
+com.calculator.mycalculator.R$raw: int temperatura
+com.calculator.mycalculator.R$raw: int tlak
+com.calculator.mycalculator.R$raw: int volumen
+com.calculator.mycalculator.R$string: int AED
+com.calculator.mycalculator.R$string: int AFN
+com.calculator.mycalculator.R$string: int ALL
+com.calculator.mycalculator.R$string: int AMD
+com.calculator.mycalculator.R$string: int ANG
+com.calculator.mycalculator.R$string: int AOA
+com.calculator.mycalculator.R$string: int ARS
+com.calculator.mycalculator.R$string: int AUD
+com.calculator.mycalculator.R$string: int AWG
+com.calculator.mycalculator.R$string: int AZN
+com.calculator.mycalculator.R$string: int BAM
+com.calculator.mycalculator.R$string: int BBD
+com.calculator.mycalculator.R$string: int BDT
+com.calculator.mycalculator.R$string: int BGN
+com.calculator.mycalculator.R$string: int BHD
+com.calculator.mycalculator.R$string: int BIF
+com.calculator.mycalculator.R$string: int BMD
+com.calculator.mycalculator.R$string: int BND
+com.calculator.mycalculator.R$string: int BOB
+com.calculator.mycalculator.R$string: int BRL
+com.calculator.mycalculator.R$string: int BSD
+com.calculator.mycalculator.R$string: int BTN
+com.calculator.mycalculator.R$string: int BWP
+com.calculator.mycalculator.R$string: int BYR
+com.calculator.mycalculator.R$string: int BZD
+com.calculator.mycalculator.R$string: int CAD
+com.calculator.mycalculator.R$string: int CDF
+com.calculator.mycalculator.R$string: int CHF
+com.calculator.mycalculator.R$string: int CLP
+com.calculator.mycalculator.R$string: int CNY
+com.calculator.mycalculator.R$string: int COP
+com.calculator.mycalculator.R$string: int CRC
+com.calculator.mycalculator.R$string: int CUC
+com.calculator.mycalculator.R$string: int CUP
+com.calculator.mycalculator.R$string: int CVE
+com.calculator.mycalculator.R$string: int CZK
+com.calculator.mycalculator.R$string: int DJF
+com.calculator.mycalculator.R$string: int DKK
+com.calculator.mycalculator.R$string: int DOP
+com.calculator.mycalculator.R$string: int DZD
+com.calculator.mycalculator.R$string: int EGP
+com.calculator.mycalculator.R$string: int ERN
+com.calculator.mycalculator.R$string: int ETB
+com.calculator.mycalculator.R$string: int EUR
+com.calculator.mycalculator.R$string: int FJD
+com.calculator.mycalculator.R$string: int FKP
+com.calculator.mycalculator.R$string: int GBP
+com.calculator.mycalculator.R$string: int GEL
+com.calculator.mycalculator.R$string: int GGP
+com.calculator.mycalculator.R$string: int GHS
+com.calculator.mycalculator.R$string: int GIP
+com.calculator.mycalculator.R$string: int GMD
+com.calculator.mycalculator.R$string: int GNF
+com.calculator.mycalculator.R$string: int GTQ
+com.calculator.mycalculator.R$string: int GYD
+com.calculator.mycalculator.R$string: int HKD
+com.calculator.mycalculator.R$string: int HNL
+com.calculator.mycalculator.R$string: int HRK
+com.calculator.mycalculator.R$string: int HTG
+com.calculator.mycalculator.R$string: int HUF
+com.calculator.mycalculator.R$string: int IDR
+com.calculator.mycalculator.R$string: int ILS
+com.calculator.mycalculator.R$string: int IMP
+com.calculator.mycalculator.R$string: int INR
+com.calculator.mycalculator.R$string: int IQD
+com.calculator.mycalculator.R$string: int IRR
+com.calculator.mycalculator.R$string: int ISK
+com.calculator.mycalculator.R$string: int JEP
+com.calculator.mycalculator.R$string: int JMD
+com.calculator.mycalculator.R$string: int JOD
+com.calculator.mycalculator.R$string: int JPY
+com.calculator.mycalculator.R$string: int KES
+com.calculator.mycalculator.R$string: int KGS
+com.calculator.mycalculator.R$string: int KHR
+com.calculator.mycalculator.R$string: int KMF
+com.calculator.mycalculator.R$string: int KPW
+com.calculator.mycalculator.R$string: int KRW
+com.calculator.mycalculator.R$string: int KWD
+com.calculator.mycalculator.R$string: int KYD
+com.calculator.mycalculator.R$string: int KZT
+com.calculator.mycalculator.R$string: int LAK
+com.calculator.mycalculator.R$string: int LBP
+com.calculator.mycalculator.R$string: int LKR
+com.calculator.mycalculator.R$string: int LRD
+com.calculator.mycalculator.R$string: int LSL
+com.calculator.mycalculator.R$string: int LTL
+com.calculator.mycalculator.R$string: int LVL
+com.calculator.mycalculator.R$string: int LYD
+com.calculator.mycalculator.R$string: int MAD
+com.calculator.mycalculator.R$string: int MDL
+com.calculator.mycalculator.R$string: int MGA
+com.calculator.mycalculator.R$string: int MKD
+com.calculator.mycalculator.R$string: int MMK
+com.calculator.mycalculator.R$string: int MNT
+com.calculator.mycalculator.R$string: int MOP
+com.calculator.mycalculator.R$string: int MRO
+com.calculator.mycalculator.R$string: int MUR
+com.calculator.mycalculator.R$string: int MVR
+com.calculator.mycalculator.R$string: int MWK
+com.calculator.mycalculator.R$string: int MXN
+com.calculator.mycalculator.R$string: int MYR
+com.calculator.mycalculator.R$string: int MZN
+com.calculator.mycalculator.R$string: int NAD
+com.calculator.mycalculator.R$string: int NGN
+com.calculator.mycalculator.R$string: int NIO
+com.calculator.mycalculator.R$string: int NOK
+com.calculator.mycalculator.R$string: int NPR
+com.calculator.mycalculator.R$string: int NZD
+com.calculator.mycalculator.R$string: int OMR
+com.calculator.mycalculator.R$string: int PAB
+com.calculator.mycalculator.R$string: int PEN
+com.calculator.mycalculator.R$string: int PGK
+com.calculator.mycalculator.R$string: int PHP
+com.calculator.mycalculator.R$string: int PKR
+com.calculator.mycalculator.R$string: int PLN
+com.calculator.mycalculator.R$string: int PYG
+com.calculator.mycalculator.R$string: int QAR
+com.calculator.mycalculator.R$string: int RON
+com.calculator.mycalculator.R$string: int RSD
+com.calculator.mycalculator.R$string: int RUB
+com.calculator.mycalculator.R$string: int RWF
+com.calculator.mycalculator.R$string: int SAR
+com.calculator.mycalculator.R$string: int SBD
+com.calculator.mycalculator.R$string: int SCR
+com.calculator.mycalculator.R$string: int SDG
+com.calculator.mycalculator.R$string: int SEK
+com.calculator.mycalculator.R$string: int SGD
+com.calculator.mycalculator.R$string: int SHP
+com.calculator.mycalculator.R$string: int SLL
+com.calculator.mycalculator.R$string: int SOS
+com.calculator.mycalculator.R$string: int SPL
+com.calculator.mycalculator.R$string: int SRD
+com.calculator.mycalculator.R$string: int STD
+com.calculator.mycalculator.R$string: int SVC
+com.calculator.mycalculator.R$string: int SYP
+com.calculator.mycalculator.R$string: int SZL
+com.calculator.mycalculator.R$string: int THB
+com.calculator.mycalculator.R$string: int TJS
+com.calculator.mycalculator.R$string: int TMT
+com.calculator.mycalculator.R$string: int TND
+com.calculator.mycalculator.R$string: int TOP
+com.calculator.mycalculator.R$string: int TRY
+com.calculator.mycalculator.R$string: int TTD
+com.calculator.mycalculator.R$string: int TVD
+com.calculator.mycalculator.R$string: int TWD
+com.calculator.mycalculator.R$string: int TZS
+com.calculator.mycalculator.R$string: int UAH
+com.calculator.mycalculator.R$string: int UGX
+com.calculator.mycalculator.R$string: int USD
+com.calculator.mycalculator.R$string: int UYU
+com.calculator.mycalculator.R$string: int UZS
+com.calculator.mycalculator.R$string: int VEF
+com.calculator.mycalculator.R$string: int VND
+com.calculator.mycalculator.R$string: int VUV
+com.calculator.mycalculator.R$string: int WST
+com.calculator.mycalculator.R$string: int XAF
+com.calculator.mycalculator.R$string: int XCD
+com.calculator.mycalculator.R$string: int XDR
+com.calculator.mycalculator.R$string: int XOF
+com.calculator.mycalculator.R$string: int XPF
+com.calculator.mycalculator.R$string: int YER
+com.calculator.mycalculator.R$string: int ZAR
+com.calculator.mycalculator.R$string: int ZMK
+com.calculator.mycalculator.R$string: int ZWD
+com.calculator.mycalculator.R$string: int a
+com.calculator.mycalculator.R$string: int acos
+com.calculator.mycalculator.R$string: int acres
+com.calculator.mycalculator.R$string: int action_example
+com.calculator.mycalculator.R$string: int action_settings
+com.calculator.mycalculator.R$string: int ad_unit_id
+com.calculator.mycalculator.R$string: int ad_unit_id2
+com.calculator.mycalculator.R$string: int ad_unit_id3
+com.calculator.mycalculator.R$string: int angle
+com.calculator.mycalculator.R$string: int angleP
+com.calculator.mycalculator.R$string: int app_name
+com.calculator.mycalculator.R$string: int asin
+com.calculator.mycalculator.R$string: int astronomical_units
+com.calculator.mycalculator.R$string: int astronomical_units_abbrev
+com.calculator.mycalculator.R$string: int atan
+com.calculator.mycalculator.R$string: int atmospheres
+com.calculator.mycalculator.R$string: int atmospheres_abbrev
+com.calculator.mycalculator.R$string: int b
+com.calculator.mycalculator.R$string: int backspace
+com.calculator.mycalculator.R$string: int bars
+com.calculator.mycalculator.R$string: int bars_abbrev
+com.calculator.mycalculator.R$string: int bin
+com.calculator.mycalculator.R$string: int bit
+com.calculator.mycalculator.R$string: int bit_abbrev
+com.calculator.mycalculator.R$string: int blank
+com.calculator.mycalculator.R$string: int bracketclose
+com.calculator.mycalculator.R$string: int bracketopen
+com.calculator.mycalculator.R$string: int british_thermal_units
+com.calculator.mycalculator.R$string: int british_thermal_units_abbrev
+com.calculator.mycalculator.R$string: int byte_abbrev
+com.calculator.mycalculator.R$string: int c
+com.calculator.mycalculator.R$string: int calculate
+com.calculator.mycalculator.R$string: int calculator
+com.calculator.mycalculator.R$string: int calories
+com.calculator.mycalculator.R$string: int calories_abbrev
+com.calculator.mycalculator.R$string: int celsius
+com.calculator.mycalculator.R$string: int celsius_abbrev
+com.calculator.mycalculator.R$string: int centimeters
+com.calculator.mycalculator.R$string: int centimeters_abbrev
+com.calculator.mycalculator.R$string: int chains_abbrev
+com.calculator.mycalculator.R$string: int clear
+com.calculator.mycalculator.R$string: int common_google_play_services_enable_button
+com.calculator.mycalculator.R$string: int common_google_play_services_enable_text
+com.calculator.mycalculator.R$string: int common_google_play_services_enable_title
+com.calculator.mycalculator.R$string: int common_google_play_services_error_notification_requested_by_msg
+com.calculator.mycalculator.R$string: int common_google_play_services_install_button
+com.calculator.mycalculator.R$string: int common_google_play_services_install_text_phone
+com.calculator.mycalculator.R$string: int common_google_play_services_install_text_tablet
+com.calculator.mycalculator.R$string: int common_google_play_services_install_title
+com.calculator.mycalculator.R$string: int common_google_play_services_invalid_account_text
+com.calculator.mycalculator.R$string: int common_google_play_services_invalid_account_title
+com.calculator.mycalculator.R$string: int common_google_play_services_needs_enabling_title
+com.calculator.mycalculator.R$string: int common_google_play_services_network_error_text
+com.calculator.mycalculator.R$string: int common_google_play_services_network_error_title
+com.calculator.mycalculator.R$string: int common_google_play_services_notification_needs_installation_title
+com.calculator.mycalculator.R$string: int common_google_play_services_notification_needs_update_title
+com.calculator.mycalculator.R$string: int common_google_play_services_notification_ticker
+com.calculator.mycalculator.R$string: int common_google_play_services_unknown_issue
+com.calculator.mycalculator.R$string: int common_google_play_services_unsupported_date_text
+com.calculator.mycalculator.R$string: int common_google_play_services_unsupported_text
+com.calculator.mycalculator.R$string: int common_google_play_services_unsupported_title
+com.calculator.mycalculator.R$string: int common_google_play_services_update_button
+com.calculator.mycalculator.R$string: int common_google_play_services_update_text
+com.calculator.mycalculator.R$string: int common_google_play_services_update_title
+com.calculator.mycalculator.R$string: int common_signin_button_text
+com.calculator.mycalculator.R$string: int common_signin_button_text_long
+com.calculator.mycalculator.R$string: int confirm
+com.calculator.mycalculator.R$string: int copy
+com.calculator.mycalculator.R$string: int cords
+com.calculator.mycalculator.R$string: int cords_abbrev
+com.calculator.mycalculator.R$string: int cos
+com.calculator.mycalculator.R$string: int cubbed
+com.calculator.mycalculator.R$string: int cube_root
+com.calculator.mycalculator.R$string: int cubic_centimeters
+com.calculator.mycalculator.R$string: int cubic_centimeters_abbrev
+com.calculator.mycalculator.R$string: int cubic_foot
+com.calculator.mycalculator.R$string: int cubic_foot_abbrev
+com.calculator.mycalculator.R$string: int cubic_inches
+com.calculator.mycalculator.R$string: int cubic_inches_abbrev
+com.calculator.mycalculator.R$string: int cubic_meters
+com.calculator.mycalculator.R$string: int cubic_meters_abbrev
+com.calculator.mycalculator.R$string: int currency
+com.calculator.mycalculator.R$string: int currency_converter_title
+com.calculator.mycalculator.R$string: int d
+com.calculator.mycalculator.R$string: int days
+com.calculator.mycalculator.R$string: int days_abbrev
+com.calculator.mycalculator.R$string: int dec
+com.calculator.mycalculator.R$string: int decimal_sep
+com.calculator.mycalculator.R$string: int decimal_separator
+com.calculator.mycalculator.R$string: int decimeters
+com.calculator.mycalculator.R$string: int decimeters_abbrev
+com.calculator.mycalculator.R$string: int degrees
+com.calculator.mycalculator.R$string: int degrees_abbrev
+com.calculator.mycalculator.R$string: int dekameters
+com.calculator.mycalculator.R$string: int dekameters_abbrev
+com.calculator.mycalculator.R$string: int div
+com.calculator.mycalculator.R$string: int e
+com.calculator.mycalculator.R$string: int edit
+com.calculator.mycalculator.R$string: int eight
+com.calculator.mycalculator.R$string: int electronvolts
+com.calculator.mycalculator.R$string: int electronvolts_abbrev
+com.calculator.mycalculator.R$string: int energy
+com.calculator.mycalculator.R$string: int ergs
+com.calculator.mycalculator.R$string: int ergs_abbrev
+com.calculator.mycalculator.R$string: int error
+com.calculator.mycalculator.R$string: int euler
+com.calculator.mycalculator.R$string: int f
+com.calculator.mycalculator.R$string: int faculty
+com.calculator.mycalculator.R$string: int fahrenheit
+com.calculator.mycalculator.R$string: int fahrenheit_abbrev
+com.calculator.mycalculator.R$string: int fathoms
+com.calculator.mycalculator.R$string: int fathoms_abbrev
+com.calculator.mycalculator.R$string: int feet
+com.calculator.mycalculator.R$string: int feet_abbrev
+com.calculator.mycalculator.R$string: int feet_per_second
+com.calculator.mycalculator.R$string: int feet_per_second_abbrev
+com.calculator.mycalculator.R$string: int five
+com.calculator.mycalculator.R$string: int fluid_ounces
+com.calculator.mycalculator.R$string: int fluid_ounces_abbrev
+com.calculator.mycalculator.R$string: int foot_pounds
+com.calculator.mycalculator.R$string: int foot_pounds_abbrev
+com.calculator.mycalculator.R$string: int four
+com.calculator.mycalculator.R$string: int from_currency_amount_label
+com.calculator.mycalculator.R$string: int from_currency_label
+com.calculator.mycalculator.R$string: int furlongs_abbrev
+com.calculator.mycalculator.R$string: int gbit_per_sec
+com.calculator.mycalculator.R$string: int gbit_per_sec_abbrev
+com.calculator.mycalculator.R$string: int giga_byte
+com.calculator.mycalculator.R$string: int giga_byte_abbrev
+com.calculator.mycalculator.R$string: int grad
+com.calculator.mycalculator.R$string: int grad_abbrev
+com.calculator.mycalculator.R$string: int grams
+com.calculator.mycalculator.R$string: int grams_abbrev
+com.calculator.mycalculator.R$string: int graph
+com.calculator.mycalculator.R$string: int graphp
+com.calculator.mycalculator.R$string: int hectares
+com.calculator.mycalculator.R$string: int hectares_abbrev
+com.calculator.mycalculator.R$string: int hectometers
+com.calculator.mycalculator.R$string: int hectometers_abbrev
+com.calculator.mycalculator.R$string: int hello_world
+com.calculator.mycalculator.R$string: int help
+com.calculator.mycalculator.R$string: int hex
+com.calculator.mycalculator.R$string: int history
+com.calculator.mycalculator.R$string: int horsepower_hours
+com.calculator.mycalculator.R$string: int horsepower_hours_abbrev
+com.calculator.mycalculator.R$string: int hours
+com.calculator.mycalculator.R$string: int hours_abbrev
+com.calculator.mycalculator.R$string: int inches
+com.calculator.mycalculator.R$string: int inches_abbrev
+com.calculator.mycalculator.R$string: int inches_of_mercury
+com.calculator.mycalculator.R$string: int inches_of_mercury_abbrev
+com.calculator.mycalculator.R$string: int joules
+com.calculator.mycalculator.R$string: int joules_abbrev
+com.calculator.mycalculator.R$string: int kbit_per_sec
+com.calculator.mycalculator.R$string: int kbit_per_sec_abbrev
+com.calculator.mycalculator.R$string: int kelvin
+com.calculator.mycalculator.R$string: int kelvin_abbrev
+com.calculator.mycalculator.R$string: int killowatt_hours
+com.calculator.mycalculator.R$string: int killowatt_hours_abbrev
+com.calculator.mycalculator.R$string: int kilo_byte
+com.calculator.mycalculator.R$string: int kilo_byte_abbrev
+com.calculator.mycalculator.R$string: int kilocalories
+com.calculator.mycalculator.R$string: int kilocalories_abbrev
+com.calculator.mycalculator.R$string: int kilogram_forces
+com.calculator.mycalculator.R$string: int kilogram_forces_abbrev
+com.calculator.mycalculator.R$string: int kilograms
+com.calculator.mycalculator.R$string: int kilograms_abbrev
+com.calculator.mycalculator.R$string: int kilometers
+com.calculator.mycalculator.R$string: int kilometers_abbrev
+com.calculator.mycalculator.R$string: int kilometers_per_hour
+com.calculator.mycalculator.R$string: int kilometers_per_hour_abbrev
+com.calculator.mycalculator.R$string: int kilopascals
+com.calculator.mycalculator.R$string: int kilopascals_abbrev
+com.calculator.mycalculator.R$string: int lenght
+com.calculator.mycalculator.R$string: int liters
+com.calculator.mycalculator.R$string: int liters_abbrev
+com.calculator.mycalculator.R$string: int ln
+com.calculator.mycalculator.R$string: int log
+com.calculator.mycalculator.R$string: int m_minus
+com.calculator.mycalculator.R$string: int m_plus
+com.calculator.mycalculator.R$string: int mach
+com.calculator.mycalculator.R$string: int mach_abbrev
+com.calculator.mycalculator.R$string: int mass
+com.calculator.mycalculator.R$string: int mbit_per_sec
+com.calculator.mycalculator.R$string: int mbit_per_sec_abbrev
+com.calculator.mycalculator.R$string: int mc
+com.calculator.mycalculator.R$string: int mega_byte
+com.calculator.mycalculator.R$string: int mega_byte_abbrev
+com.calculator.mycalculator.R$string: int megameters
+com.calculator.mycalculator.R$string: int megameters_abbrev
+com.calculator.mycalculator.R$string: int meters
+com.calculator.mycalculator.R$string: int meters_abbrev
+com.calculator.mycalculator.R$string: int meters_per_second
+com.calculator.mycalculator.R$string: int meters_per_second_abbrev
+com.calculator.mycalculator.R$string: int metric_tons
+com.calculator.mycalculator.R$string: int metric_tons_abbrev
+com.calculator.mycalculator.R$string: int micrograms
+com.calculator.mycalculator.R$string: int micrograms_abbrev
+com.calculator.mycalculator.R$string: int micrometers
+com.calculator.mycalculator.R$string: int micrometers_abbrev
+com.calculator.mycalculator.R$string: int miles
+com.calculator.mycalculator.R$string: int miles_abbrev
+com.calculator.mycalculator.R$string: int miles_per_hour
+com.calculator.mycalculator.R$string: int miles_per_hour_abbrev
+com.calculator.mycalculator.R$string: int millibars
+com.calculator.mycalculator.R$string: int millibars_abbrev
+com.calculator.mycalculator.R$string: int milligrams
+com.calculator.mycalculator.R$string: int milligrams_abbrev
+com.calculator.mycalculator.R$string: int milliliters
+com.calculator.mycalculator.R$string: int milliliters_abbrev
+com.calculator.mycalculator.R$string: int millimeters
+com.calculator.mycalculator.R$string: int millimeters_abbrev
+com.calculator.mycalculator.R$string: int milliseconds
+com.calculator.mycalculator.R$string: int milliseconds_abbrev
+com.calculator.mycalculator.R$string: int minus
+com.calculator.mycalculator.R$string: int minute
+com.calculator.mycalculator.R$string: int minute_abbrev
+com.calculator.mycalculator.R$string: int minutes
+com.calculator.mycalculator.R$string: int minutes_abbrev
+com.calculator.mycalculator.R$string: int modulus
+com.calculator.mycalculator.R$string: int months
+com.calculator.mycalculator.R$string: int months_abbrev
+com.calculator.mycalculator.R$string: int mr
+com.calculator.mycalculator.R$string: int ms
+com.calculator.mycalculator.R$string: int multiplay
+com.calculator.mycalculator.R$string: int nanoseconds
+com.calculator.mycalculator.R$string: int nanoseconds_abbrev
+com.calculator.mycalculator.R$string: int nautical_miles
+com.calculator.mycalculator.R$string: int nautical_miles_abbrev
+com.calculator.mycalculator.R$string: int navigation_drawer_close
+com.calculator.mycalculator.R$string: int navigation_drawer_open
+com.calculator.mycalculator.R$string: int newtons
+com.calculator.mycalculator.R$string: int newtons_abbrev
+com.calculator.mycalculator.R$string: int nine
+com.calculator.mycalculator.R$string: int oct
+com.calculator.mycalculator.R$string: int one
+com.calculator.mycalculator.R$string: int ounces
+com.calculator.mycalculator.R$string: int ounces_abbrev
+com.calculator.mycalculator.R$string: int pascals
+com.calculator.mycalculator.R$string: int pascals_abbrev
+com.calculator.mycalculator.R$string: int paste
+com.calculator.mycalculator.R$string: int percent
+com.calculator.mycalculator.R$string: int pi
+com.calculator.mycalculator.R$string: int picoseconds
+com.calculator.mycalculator.R$string: int picoseconds_abbrev
+com.calculator.mycalculator.R$string: int plus
+com.calculator.mycalculator.R$string: int pound_forces
+com.calculator.mycalculator.R$string: int pound_forces_abbrev
+com.calculator.mycalculator.R$string: int poundals
+com.calculator.mycalculator.R$string: int poundals_abbrev
+com.calculator.mycalculator.R$string: int pounds
+com.calculator.mycalculator.R$string: int pounds_abbrev
+com.calculator.mycalculator.R$string: int pounds_per_square_inch
+com.calculator.mycalculator.R$string: int pounds_per_square_inch_abbrev
+com.calculator.mycalculator.R$string: int power
+com.calculator.mycalculator.R$string: int powerP
+com.calculator.mycalculator.R$string: int pravila
+com.calculator.mycalculator.R$string: int pressure
+com.calculator.mycalculator.R$string: int radians
+com.calculator.mycalculator.R$string: int radians_abbrev
+com.calculator.mycalculator.R$string: int reciproc
+com.calculator.mycalculator.R$string: int reset
+com.calculator.mycalculator.R$string: int rods_abbrev
+com.calculator.mycalculator.R$string: int root
+com.calculator.mycalculator.R$string: int seconds
+com.calculator.mycalculator.R$string: int seconds_abbrev
+com.calculator.mycalculator.R$string: int secunde
+com.calculator.mycalculator.R$string: int secunde_abbrev
+com.calculator.mycalculator.R$string: int settings
+com.calculator.mycalculator.R$string: int setttings
+com.calculator.mycalculator.R$string: int seven
+com.calculator.mycalculator.R$string: int sign
+com.calculator.mycalculator.R$string: int sin
+com.calculator.mycalculator.R$string: int six
+com.calculator.mycalculator.R$string: int speed
+com.calculator.mycalculator.R$string: int speed_of_light
+com.calculator.mycalculator.R$string: int speed_of_light_abbrev
+com.calculator.mycalculator.R$string: int sqrt_root
+com.calculator.mycalculator.R$string: int square_acres_abbrev
+com.calculator.mycalculator.R$string: int square_centimeters
+com.calculator.mycalculator.R$string: int square_centimeters_abbrev
+com.calculator.mycalculator.R$string: int square_feet
+com.calculator.mycalculator.R$string: int square_feet_abbrev
+com.calculator.mycalculator.R$string: int square_inches
+com.calculator.mycalculator.R$string: int square_inches_abbrev
+com.calculator.mycalculator.R$string: int square_kilometers
+com.calculator.mycalculator.R$string: int square_kilometers_abbrev
+com.calculator.mycalculator.R$string: int square_meters
+com.calculator.mycalculator.R$string: int square_meters_abbrev
+com.calculator.mycalculator.R$string: int square_miles
+com.calculator.mycalculator.R$string: int square_miles_abbrev
+com.calculator.mycalculator.R$string: int square_millimeters
+com.calculator.mycalculator.R$string: int square_millimeters_abbrev
+com.calculator.mycalculator.R$string: int squared
+com.calculator.mycalculator.R$string: int surface
+com.calculator.mycalculator.R$string: int tablespoons
+com.calculator.mycalculator.R$string: int tablespoons_abbrev
+com.calculator.mycalculator.R$string: int tan
+com.calculator.mycalculator.R$string: int teaspoons
+com.calculator.mycalculator.R$string: int teaspoons_abbrev
+com.calculator.mycalculator.R$string: int temperature
+com.calculator.mycalculator.R$string: int tera_byte
+com.calculator.mycalculator.R$string: int tera_byte_abbrev
+com.calculator.mycalculator.R$string: int three
+com.calculator.mycalculator.R$string: int time
+com.calculator.mycalculator.R$string: int title_activity_listview
+com.calculator.mycalculator.R$string: int to_currency_label
+com.calculator.mycalculator.R$string: int tons
+com.calculator.mycalculator.R$string: int tons_abbrev
+com.calculator.mycalculator.R$string: int tons_of_tnt
+com.calculator.mycalculator.R$string: int tons_of_tnt_abbrev
+com.calculator.mycalculator.R$string: int two
+com.calculator.mycalculator.R$string: int unit_category_chooser_title
+com.calculator.mycalculator.R$string: int unit_converter_title
+com.calculator.mycalculator.R$string: int unit_input_label
+com.calculator.mycalculator.R$string: int unit_output_label
+com.calculator.mycalculator.R$string: int us_cups
+com.calculator.mycalculator.R$string: int us_cups_abbrev
+com.calculator.mycalculator.R$string: int us_gallons
+com.calculator.mycalculator.R$string: int us_gallons_abbrev
+com.calculator.mycalculator.R$string: int us_pints
+com.calculator.mycalculator.R$string: int us_pints_abbrev
+com.calculator.mycalculator.R$string: int us_quarts
+com.calculator.mycalculator.R$string: int us_quarts_abbrev
+com.calculator.mycalculator.R$string: int volume
+com.calculator.mycalculator.R$string: int wallet_buy_button_place_holder
+com.calculator.mycalculator.R$string: int weeks
+com.calculator.mycalculator.R$string: int weeks_abbrev
+com.calculator.mycalculator.R$string: int x
+com.calculator.mycalculator.R$string: int yards
+com.calculator.mycalculator.R$string: int yards_abbrev
+com.calculator.mycalculator.R$string: int years
+com.calculator.mycalculator.R$string: int years_abbrev
+com.calculator.mycalculator.R$string: int zero
+com.calculator.mycalculator.R$style: int Theme_IAPTheme
+com.calculator.mycalculator.R$style: int WalletFragmentDefaultButtonTextAppearance
+com.calculator.mycalculator.R$style: int WalletFragmentDefaultDetailsHeaderTextAppearance
+com.calculator.mycalculator.R$style: int WalletFragmentDefaultDetailsTextAppearance
+com.calculator.mycalculator.R$style: int WalletFragmentDefaultStyle
+com.calculator.mycalculator.R$style: int btnStylemedium_wood
+com.calculator.mycalculator.R$style: int buttonLayout
+com.calculator.mycalculator.R$style: int calculatorBackground
+com.calculator.mycalculator.R$style: int calculatorButtonInRow
+com.calculator.mycalculator.R$style: int darkerButtonInRow
+com.calculator.mycalculator.R$style: int darkerButtonLargerInRow
+com.calculator.mycalculator.R$style: int lighterButtonInRow
+com.calculator.mycalculator.R$style: int lighterButtonLargerInRow
+com.calculator.mycalculator.R$style: int redButtonInRow
+com.calculator.mycalculator.R$style: int redButtonLargerInRow
+com.calculator.mycalculator.R$style: int secondaryTextElementInRow
+com.calculator.mycalculator.R$style: int secondaryTextElementSmallInRow
+com.calculator.mycalculator.R$style: int textLayout
+com.calculator.mycalculator.R$style: int woodButtonInRow
+com.calculator.mycalculator.R$style: int woodButtonLargerInRow
+com.calculator.mycalculator.R$styleable: int[] AdsAttrs
+com.calculator.mycalculator.R$styleable: int AdsAttrs_adSize
+com.calculator.mycalculator.R$styleable: int AdsAttrs_adSizes
+com.calculator.mycalculator.R$styleable: int AdsAttrs_adUnitId
+com.calculator.mycalculator.R$styleable: int[] MapAttrs
+com.calculator.mycalculator.R$styleable: int MapAttrs_cameraBearing
+com.calculator.mycalculator.R$styleable: int MapAttrs_cameraTargetLat
+com.calculator.mycalculator.R$styleable: int MapAttrs_cameraTargetLng
+com.calculator.mycalculator.R$styleable: int MapAttrs_cameraTilt
+com.calculator.mycalculator.R$styleable: int MapAttrs_cameraZoom
+com.calculator.mycalculator.R$styleable: int MapAttrs_mapType
+com.calculator.mycalculator.R$styleable: int MapAttrs_uiCompass
+com.calculator.mycalculator.R$styleable: int MapAttrs_uiRotateGestures
+com.calculator.mycalculator.R$styleable: int MapAttrs_uiScrollGestures
+com.calculator.mycalculator.R$styleable: int MapAttrs_uiTiltGestures
+com.calculator.mycalculator.R$styleable: int MapAttrs_uiZoomControls
+com.calculator.mycalculator.R$styleable: int MapAttrs_uiZoomGestures
+com.calculator.mycalculator.R$styleable: int MapAttrs_useViewLifecycle
+com.calculator.mycalculator.R$styleable: int MapAttrs_zOrderOnTop
+com.calculator.mycalculator.R$styleable: int[] WalletFragmentOptions
+com.calculator.mycalculator.R$styleable: int WalletFragmentOptions_environment
+com.calculator.mycalculator.R$styleable: int WalletFragmentOptions_fragmentMode
+com.calculator.mycalculator.R$styleable: int WalletFragmentOptions_fragmentStyle
+com.calculator.mycalculator.R$styleable: int WalletFragmentOptions_theme
+com.calculator.mycalculator.R$styleable: int[] WalletFragmentStyle
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_buyButtonAppearance
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_buyButtonHeight
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_buyButtonText
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_buyButtonWidth
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_maskedWalletDetailsBackground
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_maskedWalletDetailsButtonBackground
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_maskedWalletDetailsLogoImageType
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_maskedWalletDetailsLogoTextColor
+com.calculator.mycalculator.R$styleable: int WalletFragmentStyle_maskedWalletDetailsTextAppearance
+com.calculator.mycalculator.R$xml: int perfforcalc
+com.calculator.mycalculator.SettingsActivity
+com.calculator.mycalculator.SettingsActivity: SettingsActivity()
+com.calculator.position.PositionButtons
+com.calculator.position.PositionButtons: PositionButtons()
+com.example.mycalc.ListviewActivity
+com.example.mycalc.ListviewActivity: ListviewActivity()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.android.gms.R$attr: int adSize
+com.google.android.gms.R$attr: int adSizes
+com.google.android.gms.R$attr: int adUnitId
+com.google.android.gms.R$attr: int buyButtonAppearance
+com.google.android.gms.R$attr: int buyButtonHeight
+com.google.android.gms.R$attr: int buyButtonText
+com.google.android.gms.R$attr: int buyButtonWidth
+com.google.android.gms.R$attr: int cameraBearing
+com.google.android.gms.R$attr: int cameraTargetLat
+com.google.android.gms.R$attr: int cameraTargetLng
+com.google.android.gms.R$attr: int cameraTilt
+com.google.android.gms.R$attr: int cameraZoom
+com.google.android.gms.R$attr: int environment
+com.google.android.gms.R$attr: int fragmentMode
+com.google.android.gms.R$attr: int fragmentStyle
+com.google.android.gms.R$attr: int mapType
+com.google.android.gms.R$attr: int maskedWalletDetailsBackground
+com.google.android.gms.R$attr: int maskedWalletDetailsButtonBackground
+com.google.android.gms.R$attr: int maskedWalletDetailsButtonTextAppearance
+com.google.android.gms.R$attr: int maskedWalletDetailsHeaderTextAppearance
+com.google.android.gms.R$attr: int maskedWalletDetailsLogoImageType
+com.google.android.gms.R$attr: int maskedWalletDetailsLogoTextColor
+com.google.android.gms.R$attr: int maskedWalletDetailsTextAppearance
+com.google.android.gms.R$attr: int theme
+com.google.android.gms.R$attr: int uiCompass
+com.google.android.gms.R$attr: int uiRotateGestures
+com.google.android.gms.R$attr: int uiScrollGestures
+com.google.android.gms.R$attr: int uiTiltGestures
+com.google.android.gms.R$attr: int uiZoomControls
+com.google.android.gms.R$attr: int uiZoomGestures
+com.google.android.gms.R$attr: int useViewLifecycle
+com.google.android.gms.R$attr: int zOrderOnTop
+com.google.android.gms.R$color: int common_action_bar_splitter
+com.google.android.gms.R$color: int common_signin_btn_dark_text_default
+com.google.android.gms.R$color: int common_signin_btn_dark_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_dark_text_focused
+com.google.android.gms.R$color: int common_signin_btn_dark_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_default_background
+com.google.android.gms.R$color: int common_signin_btn_light_text_default
+com.google.android.gms.R$color: int common_signin_btn_light_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_light_text_focused
+com.google.android.gms.R$color: int common_signin_btn_light_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_text_dark
+com.google.android.gms.R$color: int common_signin_btn_text_light
+com.google.android.gms.R$color: int wallet_bright_foreground_disabled_holo_light
+com.google.android.gms.R$color: int wallet_bright_foreground_holo_dark
+com.google.android.gms.R$color: int wallet_bright_foreground_holo_light
+com.google.android.gms.R$color: int wallet_dim_foreground_disabled_holo_dark
+com.google.android.gms.R$color: int wallet_dim_foreground_holo_dark
+com.google.android.gms.R$color: int wallet_dim_foreground_inverse_disabled_holo_dark
+com.google.android.gms.R$color: int wallet_dim_foreground_inverse_holo_dark
+com.google.android.gms.R$color: int wallet_highlighted_text_holo_dark
+com.google.android.gms.R$color: int wallet_highlighted_text_holo_light
+com.google.android.gms.R$color: int wallet_hint_foreground_holo_dark
+com.google.android.gms.R$color: int wallet_hint_foreground_holo_light
+com.google.android.gms.R$color: int wallet_holo_blue_light
+com.google.android.gms.R$color: int wallet_link_text_light
+com.google.android.gms.R$color: int wallet_primary_text_holo_light
+com.google.android.gms.R$color: int wallet_secondary_text_holo_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_light
+com.google.android.gms.R$drawable: int ic_plusone_medium_off_client
+com.google.android.gms.R$drawable: int ic_plusone_small_off_client
+com.google.android.gms.R$drawable: int ic_plusone_standard_off_client
+com.google.android.gms.R$drawable: int ic_plusone_tall_off_client
+com.google.android.gms.R$drawable: int powered_by_google_dark
+com.google.android.gms.R$drawable: int powered_by_google_light
+com.google.android.gms.R$id: int book_now
+com.google.android.gms.R$id: int buyButton
+com.google.android.gms.R$id: int buy_now
+com.google.android.gms.R$id: int buy_with_google
+com.google.android.gms.R$id: int classic
+com.google.android.gms.R$id: int grayscale
+com.google.android.gms.R$id: int holo_dark
+com.google.android.gms.R$id: int holo_light
+com.google.android.gms.R$id: int hybrid
+com.google.android.gms.R$id: int match_parent
+com.google.android.gms.R$id: int monochrome
+com.google.android.gms.R$id: int none
+com.google.android.gms.R$id: int normal
+com.google.android.gms.R$id: int production
+com.google.android.gms.R$id: int sandbox
+com.google.android.gms.R$id: int satellite
+com.google.android.gms.R$id: int selectionDetails
+com.google.android.gms.R$id: int strict_sandbox
+com.google.android.gms.R$id: int terrain
+com.google.android.gms.R$id: int wrap_content
+com.google.android.gms.R$integer: int google_play_services_version
+com.google.android.gms.R$string: int common_google_play_services_enable_button
+com.google.android.gms.R$string: int common_google_play_services_enable_text
+com.google.android.gms.R$string: int common_google_play_services_enable_title
+com.google.android.gms.R$string: int common_google_play_services_error_notification_requested_by_msg
+com.google.android.gms.R$string: int common_google_play_services_install_button
+com.google.android.gms.R$string: int common_google_play_services_install_text_phone
+com.google.android.gms.R$string: int common_google_play_services_install_text_tablet
+com.google.android.gms.R$string: int common_google_play_services_install_title
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_text
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_title
+com.google.android.gms.R$string: int common_google_play_services_needs_enabling_title
+com.google.android.gms.R$string: int common_google_play_services_network_error_text
+com.google.android.gms.R$string: int common_google_play_services_network_error_title
+com.google.android.gms.R$string: int common_google_play_services_notification_needs_installation_title
+com.google.android.gms.R$string: int common_google_play_services_notification_needs_update_title
+com.google.android.gms.R$string: int common_google_play_services_notification_ticker
+com.google.android.gms.R$string: int common_google_play_services_unknown_issue
+com.google.android.gms.R$string: int common_google_play_services_unsupported_date_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_title
+com.google.android.gms.R$string: int common_google_play_services_update_button
+com.google.android.gms.R$string: int common_google_play_services_update_text
+com.google.android.gms.R$string: int common_google_play_services_update_title
+com.google.android.gms.R$string: int common_signin_button_text
+com.google.android.gms.R$string: int common_signin_button_text_long
+com.google.android.gms.R$string: int wallet_buy_button_place_holder
+com.google.android.gms.R$style: int Theme_IAPTheme
+com.google.android.gms.R$style: int WalletFragmentDefaultButtonTextAppearance
+com.google.android.gms.R$style: int WalletFragmentDefaultDetailsHeaderTextAppearance
+com.google.android.gms.R$style: int WalletFragmentDefaultDetailsTextAppearance
+com.google.android.gms.R$style: int WalletFragmentDefaultStyle
+com.google.android.gms.R$styleable: int[] AdsAttrs
+com.google.android.gms.R$styleable: int AdsAttrs_adSize
+com.google.android.gms.R$styleable: int AdsAttrs_adSizes
+com.google.android.gms.R$styleable: int AdsAttrs_adUnitId
+com.google.android.gms.R$styleable: int[] MapAttrs
+com.google.android.gms.R$styleable: int MapAttrs_cameraBearing
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLat
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLng
+com.google.android.gms.R$styleable: int MapAttrs_cameraTilt
+com.google.android.gms.R$styleable: int MapAttrs_cameraZoom
+com.google.android.gms.R$styleable: int MapAttrs_mapType
+com.google.android.gms.R$styleable: int MapAttrs_uiCompass
+com.google.android.gms.R$styleable: int MapAttrs_uiRotateGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiScrollGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiTiltGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomControls
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomGestures
+com.google.android.gms.R$styleable: int MapAttrs_useViewLifecycle
+com.google.android.gms.R$styleable: int MapAttrs_zOrderOnTop
+com.google.android.gms.R$styleable: int[] WalletFragmentOptions
+com.google.android.gms.R$styleable: int WalletFragmentOptions_environment
+com.google.android.gms.R$styleable: int WalletFragmentOptions_fragmentMode
+com.google.android.gms.R$styleable: int WalletFragmentOptions_fragmentStyle
+com.google.android.gms.R$styleable: int WalletFragmentOptions_theme
+com.google.android.gms.R$styleable: int[] WalletFragmentStyle
+com.google.android.gms.R$styleable: int WalletFragmentStyle_buyButtonAppearance
+com.google.android.gms.R$styleable: int WalletFragmentStyle_buyButtonHeight
+com.google.android.gms.R$styleable: int WalletFragmentStyle_buyButtonText
+com.google.android.gms.R$styleable: int WalletFragmentStyle_buyButtonWidth
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsBackground
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsButtonBackground
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsLogoImageType
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsLogoTextColor
+com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsTextAppearance
+com.google.android.gms.ads.AdActivity
+com.google.android.gms.ads.AdActivity: AdActivity()
+com.google.android.gms.ads.AdActivity: void setContentView(android.view.View)
+com.google.android.gms.ads.AdView
+com.google.android.gms.ads.AdView: AdView(android.content.Context)
+com.google.android.gms.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.AdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.purchase.InAppPurchaseListener getInAppPurchaseListener()
+com.google.android.gms.ads.AdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.AdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.AdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.AdView: void setInAppPurchaseListener(com.google.android.gms.ads.purchase.InAppPurchaseListener)
+com.google.android.gms.ads.AdView: void setPlayStorePurchaseParams(com.google.android.gms.ads.purchase.PlayStorePurchaseListener,java.lang.String)
+com.google.android.gms.ads.doubleclick.PublisherAdView
+com.google.android.gms.ads.doubleclick.PublisherAdView: PublisherAdView(android.content.Context)
+com.google.android.gms.ads.doubleclick.PublisherAdView: PublisherAdView(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.ads.doubleclick.PublisherAdView: PublisherAdView(android.content.Context,android.util.AttributeSet,int)
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize[] getAdSizes()
+com.google.android.gms.ads.doubleclick.PublisherAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.doubleclick.AppEventListener getAppEventListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdSizes(com.google.android.gms.ads.AdSize[])
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAppEventListener(com.google.android.gms.ads.doubleclick.AppEventListener)
+com.google.android.gms.ads.purchase.InAppPurchaseActivity
+com.google.android.gms.ads.search.SearchAdView
+com.google.android.gms.ads.search.SearchAdView: SearchAdView(android.content.Context)
+com.google.android.gms.ads.search.SearchAdView: SearchAdView(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.ads.search.SearchAdView: SearchAdView(android.content.Context,android.util.AttributeSet,int)
+com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.search.SearchAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.search.SearchAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.search.SearchAdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.search.SearchAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.analytics.CampaignTrackingReceiver
+com.google.android.gms.analytics.CampaignTrackingService
+com.google.android.gms.analytics.s$a: com.google.android.gms.analytics.s$a[] values()
+com.google.android.gms.analytics.s$a: com.google.android.gms.analytics.s$a valueOf(java.lang.String)
+com.google.android.gms.analytics.u$a: com.google.android.gms.analytics.u$a[] values()
+com.google.android.gms.analytics.u$a: com.google.android.gms.analytics.u$a valueOf(java.lang.String)
+com.google.android.gms.cast.ApplicationMetadata
+com.google.android.gms.cast.ApplicationMetadata: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.cast.CastDevice
+com.google.android.gms.cast.CastDevice: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.cast.LaunchOptions
+com.google.android.gms.cast.LaunchOptions: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.SignInButton
+com.google.android.gms.common.SignInButton: SignInButton(android.content.Context)
+com.google.android.gms.common.SignInButton: SignInButton(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.common.SignInButton: SignInButton(android.content.Context,android.util.AttributeSet,int)
+com.google.android.gms.common.SignInButton: void setSize(int)
+com.google.android.gms.common.SignInButton: void setColorScheme(int)
+com.google.android.gms.common.SignInButton: void setStyle(int,int)
+com.google.android.gms.common.SignInButton: void setOnClickListener(android.view.View$OnClickListener)
+com.google.android.gms.common.SignInButton: void setEnabled(boolean)
+com.google.android.gms.common.api.Status
+com.google.android.gms.common.data.DataHolder
+com.google.android.gms.common.data.a
+com.google.android.gms.common.data.a: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.images.ImageManager$ImageReceiver
+com.google.android.gms.common.images.WebImage
+com.google.android.gms.common.images.WebImage: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.safeparcel.SafeParcelable
+com.google.android.gms.drive.Contents
+com.google.android.gms.drive.Contents: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.DriveId
+com.google.android.gms.drive.DriveId: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.StorageStats
+com.google.android.gms.drive.StorageStats: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.events.ChangeEvent
+com.google.android.gms.drive.events.ChangeEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.events.DriveEvent
+com.google.android.gms.drive.events.DriveEventService
+com.google.android.gms.drive.events.FileConflictEvent
+com.google.android.gms.drive.events.FileConflictEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.events.ResourceEvent
+com.google.android.gms.drive.internal.AddEventListenerRequest
+com.google.android.gms.drive.internal.AddEventListenerRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.AuthorizeAccessRequest
+com.google.android.gms.drive.internal.AuthorizeAccessRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CheckResourceIdsExistRequest
+com.google.android.gms.drive.internal.CheckResourceIdsExistRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CloseContentsAndUpdateMetadataRequest
+com.google.android.gms.drive.internal.CloseContentsAndUpdateMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CloseContentsRequest
+com.google.android.gms.drive.internal.CloseContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateContentsRequest
+com.google.android.gms.drive.internal.CreateContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFileIntentSenderRequest
+com.google.android.gms.drive.internal.CreateFileIntentSenderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFileRequest
+com.google.android.gms.drive.internal.CreateFileRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFolderRequest
+com.google.android.gms.drive.internal.CreateFolderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.DeleteCustomPropertyRequest
+com.google.android.gms.drive.internal.DeleteCustomPropertyRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.DeleteResourceRequest
+com.google.android.gms.drive.internal.DeleteResourceRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.DisconnectRequest
+com.google.android.gms.drive.internal.DisconnectRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.GetDriveIdFromUniqueIdentifierRequest
+com.google.android.gms.drive.internal.GetDriveIdFromUniqueIdentifierRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.GetMetadataRequest
+com.google.android.gms.drive.internal.GetMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.ListParentsRequest
+com.google.android.gms.drive.internal.ListParentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.LoadRealtimeRequest
+com.google.android.gms.drive.internal.LoadRealtimeRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnContentsResponse
+com.google.android.gms.drive.internal.OnContentsResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnDownloadProgressResponse
+com.google.android.gms.drive.internal.OnDownloadProgressResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnDriveIdResponse
+com.google.android.gms.drive.internal.OnDriveIdResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnEventResponse
+com.google.android.gms.drive.internal.OnEventResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnListEntriesResponse
+com.google.android.gms.drive.internal.OnListEntriesResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnListParentsResponse
+com.google.android.gms.drive.internal.OnListParentsResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnLoadRealtimeResponse
+com.google.android.gms.drive.internal.OnLoadRealtimeResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnMetadataResponse
+com.google.android.gms.drive.internal.OnMetadataResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnResourceIdSetResponse
+com.google.android.gms.drive.internal.OnResourceIdSetResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnStorageStatsResponse
+com.google.android.gms.drive.internal.OnStorageStatsResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnSyncMoreResponse
+com.google.android.gms.drive.internal.OnSyncMoreResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OpenContentsRequest
+com.google.android.gms.drive.internal.OpenContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OpenFileIntentSenderRequest
+com.google.android.gms.drive.internal.OpenFileIntentSenderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.QueryRequest
+com.google.android.gms.drive.internal.QueryRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.RemoveEventListenerRequest
+com.google.android.gms.drive.internal.RemoveEventListenerRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.SetResourceParentsRequest
+com.google.android.gms.drive.internal.SetResourceParentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.TrashResourceRequest
+com.google.android.gms.drive.internal.TrashResourceRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.UpdateMetadataRequest
+com.google.android.gms.drive.internal.UpdateMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.metadata.CustomPropertyKey
+com.google.android.gms.drive.metadata.CustomPropertyKey: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.metadata.internal.AppVisibleCustomProperties
+com.google.android.gms.drive.metadata.internal.AppVisibleCustomProperties: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.metadata.internal.CustomProperty
+com.google.android.gms.drive.metadata.internal.CustomProperty: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.metadata.internal.MetadataBundle
+com.google.android.gms.drive.metadata.internal.MetadataBundle: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.Query
+com.google.android.gms.drive.query.Query: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.SortOrder
+com.google.android.gms.drive.query.SortOrder: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.ComparisonFilter
+com.google.android.gms.drive.query.internal.FieldOnlyFilter
+com.google.android.gms.drive.query.internal.FieldOnlyFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.FieldWithSortOrder
+com.google.android.gms.drive.query.internal.FilterHolder
+com.google.android.gms.drive.query.internal.FilterHolder: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.HasFilter
+com.google.android.gms.drive.query.internal.InFilter
+com.google.android.gms.drive.query.internal.LogicalFilter
+com.google.android.gms.drive.query.internal.LogicalFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.MatchAllFilter
+com.google.android.gms.drive.query.internal.NotFilter
+com.google.android.gms.drive.query.internal.NotFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.Operator
+com.google.android.gms.drive.query.internal.Operator: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.BeginCompoundOperationRequest
+com.google.android.gms.drive.realtime.internal.BeginCompoundOperationRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.EndCompoundOperationRequest
+com.google.android.gms.drive.realtime.internal.EndCompoundOperationRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.ParcelableCollaborator
+com.google.android.gms.drive.realtime.internal.ParcelableCollaborator: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.ParcelableIndexReference
+com.google.android.gms.drive.realtime.internal.ParcelableIndexReference: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ParcelableEvent
+com.google.android.gms.drive.realtime.internal.event.ParcelableEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ParcelableEventList
+com.google.android.gms.drive.realtime.internal.event.ParcelableEventList: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ParcelableObjectChangedEvent
+com.google.android.gms.drive.realtime.internal.event.ParcelableObjectChangedEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ReferenceShiftedDetails
+com.google.android.gms.drive.realtime.internal.event.ReferenceShiftedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.TextDeletedDetails
+com.google.android.gms.drive.realtime.internal.event.TextDeletedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.TextInsertedDetails
+com.google.android.gms.drive.realtime.internal.event.TextInsertedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ValueChangedDetails
+com.google.android.gms.drive.realtime.internal.event.ValueChangedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ValuesAddedDetails
+com.google.android.gms.drive.realtime.internal.event.ValuesAddedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ValuesRemovedDetails
+com.google.android.gms.drive.realtime.internal.event.ValuesRemovedDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.realtime.internal.event.ValuesSetDetails
+com.google.android.gms.drive.realtime.internal.event.ValuesSetDetails: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.Game
+com.google.android.gms.games.GameEntity
+com.google.android.gms.games.GameEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.GameRef
+com.google.android.gms.games.Player
+com.google.android.gms.games.PlayerEntity
+com.google.android.gms.games.PlayerEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.PlayerLevel
+com.google.android.gms.games.PlayerLevelInfo
+com.google.android.gms.games.PlayerRef
+com.google.android.gms.games.event.Event
+com.google.android.gms.games.event.EventEntity
+com.google.android.gms.games.event.EventRef
+com.google.android.gms.games.internal.ConnectionInfo
+com.google.android.gms.games.internal.GamesDowngradeableSafeParcel
+com.google.android.gms.games.internal.game.ExtendedGame
+com.google.android.gms.games.internal.game.ExtendedGameEntity
+com.google.android.gms.games.internal.game.ExtendedGameRef
+com.google.android.gms.games.internal.game.GameBadge
+com.google.android.gms.games.internal.game.GameBadgeEntity
+com.google.android.gms.games.internal.game.GameBadgeRef
+com.google.android.gms.games.internal.multiplayer.ZInvitationCluster
+com.google.android.gms.games.internal.player.MostRecentGameInfo
+com.google.android.gms.games.internal.player.MostRecentGameInfoEntity
+com.google.android.gms.games.internal.player.MostRecentGameInfoRef
+com.google.android.gms.games.internal.request.GameRequestCluster
+com.google.android.gms.games.multiplayer.Invitation
+com.google.android.gms.games.multiplayer.InvitationEntity
+com.google.android.gms.games.multiplayer.InvitationEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.InvitationRef
+com.google.android.gms.games.multiplayer.Participant
+com.google.android.gms.games.multiplayer.ParticipantEntity
+com.google.android.gms.games.multiplayer.ParticipantEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.ParticipantRef
+com.google.android.gms.games.multiplayer.ParticipantResult
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.Room
+com.google.android.gms.games.multiplayer.realtime.RoomEntity
+com.google.android.gms.games.multiplayer.realtime.RoomEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.RoomRef
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatch
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatchEntity
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatchRef
+com.google.android.gms.games.quest.Milestone
+com.google.android.gms.games.quest.MilestoneEntity
+com.google.android.gms.games.quest.MilestoneRef
+com.google.android.gms.games.quest.Quest
+com.google.android.gms.games.quest.QuestEntity
+com.google.android.gms.games.quest.QuestRef
+com.google.android.gms.games.request.GameRequest
+com.google.android.gms.games.request.GameRequestEntity
+com.google.android.gms.games.request.GameRequestRef
+com.google.android.gms.games.snapshot.Snapshot
+com.google.android.gms.games.snapshot.SnapshotEntity
+com.google.android.gms.games.snapshot.SnapshotMetadata
+com.google.android.gms.games.snapshot.SnapshotMetadataChange
+com.google.android.gms.games.snapshot.SnapshotMetadataEntity
+com.google.android.gms.games.snapshot.SnapshotMetadataRef
+com.google.android.gms.identity.intents.UserAddressRequest
+com.google.android.gms.identity.intents.UserAddressRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.identity.intents.model.CountrySpecification
+com.google.android.gms.identity.intents.model.CountrySpecification: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.identity.intents.model.UserAddress
+com.google.android.gms.identity.intents.model.UserAddress: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.a: com.google.android.gms.internal.a[] values()
+com.google.android.gms.internal.a: com.google.android.gms.internal.a valueOf(java.lang.String)
+com.google.android.gms.internal.ai
+com.google.android.gms.internal.al
+com.google.android.gms.internal.ao
+com.google.android.gms.internal.ao: ao(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.internal.aw
+com.google.android.gms.internal.b: com.google.android.gms.internal.b[] values()
+com.google.android.gms.internal.b: com.google.android.gms.internal.b valueOf(java.lang.String)
+com.google.android.gms.internal.ce
+com.google.android.gms.internal.ch
+com.google.android.gms.internal.cj
+com.google.android.gms.internal.ck
+com.google.android.gms.internal.cq
+com.google.android.gms.internal.ds
+com.google.android.gms.internal.du
+com.google.android.gms.internal.ev
+com.google.android.gms.internal.ex
+com.google.android.gms.internal.ex: void setContext(android.content.Context)
+com.google.android.gms.internal.fd
+com.google.android.gms.internal.fd: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.fg
+com.google.android.gms.internal.fi
+com.google.android.gms.internal.fk
+com.google.android.gms.internal.fm
+com.google.android.gms.internal.fp
+com.google.android.gms.internal.fr
+com.google.android.gms.internal.gd: com.google.android.gms.internal.gd[] values()
+com.google.android.gms.internal.gd: com.google.android.gms.internal.gd valueOf(java.lang.String)
+com.google.android.gms.internal.ge
+com.google.android.gms.internal.ge: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.gj
+com.google.android.gms.internal.gj: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.gv
+com.google.android.gms.internal.gy$a
+com.google.android.gms.internal.ha
+com.google.android.gms.internal.ho
+com.google.android.gms.internal.ho: ho(android.content.Context)
+com.google.android.gms.internal.ho: ho(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.internal.hr
+com.google.android.gms.internal.ht
+com.google.android.gms.internal.hv
+com.google.android.gms.internal.hv$a
+com.google.android.gms.internal.hy$a
+com.google.android.gms.internal.ib
+com.google.android.gms.internal.ib$a
+com.google.android.gms.internal.ib$b
+com.google.android.gms.internal.ie
+com.google.android.gms.internal.jh
+com.google.android.gms.internal.jk
+com.google.android.gms.internal.jm
+com.google.android.gms.internal.jo
+com.google.android.gms.internal.jq
+com.google.android.gms.internal.js
+com.google.android.gms.internal.ju
+com.google.android.gms.internal.ju: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.jw
+com.google.android.gms.internal.ka
+com.google.android.gms.internal.kn
+com.google.android.gms.internal.kp
+com.google.android.gms.internal.ks
+com.google.android.gms.internal.ks$a
+com.google.android.gms.internal.ks$b
+com.google.android.gms.internal.ks$b$a
+com.google.android.gms.internal.ks$b$b
+com.google.android.gms.internal.ks$c
+com.google.android.gms.internal.ks$d
+com.google.android.gms.internal.ks$f
+com.google.android.gms.internal.ks$g
+com.google.android.gms.internal.ks$h
+com.google.android.gms.internal.lg
+com.google.android.gms.internal.lg: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.li
+com.google.android.gms.internal.li: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.v
+com.google.android.gms.location.ActivityRecognitionResult
+com.google.android.gms.location.DetectedActivity
+com.google.android.gms.location.LocationRequest
+com.google.android.gms.location.b
+com.google.android.gms.maps.GoogleMapOptions
+com.google.android.gms.maps.MapView
+com.google.android.gms.maps.MapView: MapView(android.content.Context)
+com.google.android.gms.maps.MapView: MapView(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.maps.MapView: MapView(android.content.Context,android.util.AttributeSet,int)
+com.google.android.gms.maps.MapView: com.google.android.gms.maps.GoogleMap getMap()
+com.google.android.gms.maps.StreetViewPanoramaOptions
+com.google.android.gms.maps.StreetViewPanoramaView
+com.google.android.gms.maps.StreetViewPanoramaView: StreetViewPanoramaView(android.content.Context)
+com.google.android.gms.maps.StreetViewPanoramaView: StreetViewPanoramaView(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.maps.StreetViewPanoramaView: StreetViewPanoramaView(android.content.Context,android.util.AttributeSet,int)
+com.google.android.gms.maps.StreetViewPanoramaView: com.google.android.gms.maps.StreetViewPanorama getStreetViewPanorama()
+com.google.android.gms.maps.model.CameraPosition
+com.google.android.gms.maps.model.CircleOptions
+com.google.android.gms.maps.model.GroundOverlayOptions
+com.google.android.gms.maps.model.LatLng
+com.google.android.gms.maps.model.LatLngBounds
+com.google.android.gms.maps.model.MarkerOptions
+com.google.android.gms.maps.model.PolygonOptions
+com.google.android.gms.maps.model.PolylineOptions
+com.google.android.gms.maps.model.StreetViewPanoramaCamera
+com.google.android.gms.maps.model.StreetViewPanoramaLink
+com.google.android.gms.maps.model.StreetViewPanoramaLocation
+com.google.android.gms.maps.model.StreetViewPanoramaOrientation
+com.google.android.gms.maps.model.Tile
+com.google.android.gms.maps.model.TileOverlayOptions
+com.google.android.gms.maps.model.VisibleRegion
+com.google.android.gms.plus.PlusOneButton
+com.google.android.gms.plus.PlusOneButton: PlusOneButton(android.content.Context)
+com.google.android.gms.plus.PlusOneButton: PlusOneButton(android.content.Context,android.util.AttributeSet)
+com.google.android.gms.plus.PlusOneButton: void setOnPlusOneClickListener(com.google.android.gms.plus.PlusOneButton$OnPlusOneClickListener)
+com.google.android.gms.plus.PlusOneButton: void setAnnotation(int)
+com.google.android.gms.plus.PlusOneButton: void setSize(int)
+com.google.android.gms.plus.PlusOneDummyView
+com.google.android.gms.plus.internal.PlusCommonExtras
+com.google.android.gms.plus.internal.h
+com.google.android.gms.tagmanager.InstallReferrerReceiver
+com.google.android.gms.tagmanager.InstallReferrerService
+com.google.android.gms.tagmanager.PreviewActivity
+com.google.android.gms.tagmanager.az$a: com.google.android.gms.tagmanager.az$a[] values()
+com.google.android.gms.tagmanager.az$a: com.google.android.gms.tagmanager.az$a valueOf(java.lang.String)
+com.google.android.gms.tagmanager.bg$a: com.google.android.gms.tagmanager.bg$a[] values()
+com.google.android.gms.tagmanager.bg$a: com.google.android.gms.tagmanager.bg$a valueOf(java.lang.String)
+com.google.android.gms.tagmanager.cd$a: com.google.android.gms.tagmanager.cd$a[] values()
+com.google.android.gms.tagmanager.cd$a: com.google.android.gms.tagmanager.cd$a valueOf(java.lang.String)
+com.google.android.gms.wallet.Address
+com.google.android.gms.wallet.Address: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.Cart
+com.google.android.gms.wallet.Cart: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.CountrySpecification
+com.google.android.gms.wallet.CountrySpecification: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.EnableWalletOptimizationReceiver
+com.google.android.gms.wallet.FullWallet
+com.google.android.gms.wallet.FullWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWalletRequest
+com.google.android.gms.wallet.FullWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.InstrumentInfo
+com.google.android.gms.wallet.InstrumentInfo: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LineItem
+com.google.android.gms.wallet.LineItem: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LoyaltyWalletObject
+com.google.android.gms.wallet.LoyaltyWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWallet
+com.google.android.gms.wallet.MaskedWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWalletRequest
+com.google.android.gms.wallet.MaskedWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.NotifyTransactionStatusRequest
+com.google.android.gms.wallet.NotifyTransactionStatusRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.OfferWalletObject
+com.google.android.gms.wallet.OfferWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.ProxyCard
+com.google.android.gms.wallet.ProxyCard: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.d
+com.google.android.gms.wallet.d: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.fragment.WalletFragmentInitParams
+com.google.android.gms.wallet.fragment.WalletFragmentInitParams: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.fragment.WalletFragmentOptions
+com.google.android.gms.wallet.fragment.WalletFragmentOptions: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.fragment.WalletFragmentStyle
+com.google.android.gms.wallet.fragment.WalletFragmentStyle: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.CommonWalletObject
+com.google.android.gms.wallet.wobs.CommonWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.b
+com.google.android.gms.wallet.wobs.b: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.d
+com.google.android.gms.wallet.wobs.d: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.f
+com.google.android.gms.wallet.wobs.f: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.g
+com.google.android.gms.wallet.wobs.g: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.j
+com.google.android.gms.wallet.wobs.j: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.l
+com.google.android.gms.wallet.wobs.l: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.n
+com.google.android.gms.wallet.wobs.n: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.wobs.p
+com.google.android.gms.wallet.wobs.p: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.Asset
+com.google.android.gms.wearable.Asset: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.PutDataRequest
+com.google.android.gms.wearable.PutDataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.WearableListenerService
+com.google.android.gms.wearable.c
+com.google.android.gms.wearable.c: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.DataItemAssetParcelable
+com.google.android.gms.wearable.internal.DataItemAssetParcelable: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.af
+com.google.android.gms.wearable.internal.af: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.ai
+com.google.android.gms.wearable.internal.ai: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.ak
+com.google.android.gms.wearable.internal.ak: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.am
+com.google.android.gms.wearable.internal.am: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.ao
+com.google.android.gms.wearable.internal.ao: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.aq
+com.google.android.gms.wearable.internal.aq: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.as
+com.google.android.gms.wearable.internal.as: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.b
+com.google.android.gms.wearable.internal.b: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.m
+com.google.android.gms.wearable.internal.m: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.p
+com.google.android.gms.wearable.internal.p: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.r
+com.google.android.gms.wearable.internal.r: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.t
+com.google.android.gms.wearable.internal.t: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.v
+com.google.android.gms.wearable.internal.v: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.x
+com.google.android.gms.wearable.internal.x: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wearable.internal.z
+com.google.android.gms.wearable.internal.z: android.os.Parcelable$Creator CREATOR

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="calculatorPaddingLeft">0dp</dimen>
+    <dimen name="calculatorPaddingRight">0dp</dimen>
+    <dimen name="calculatorPaddingTop">0dp</dimen>
+    <dimen name="calculatorPaddingBottom">4dp</dimen>
+    
+    <dimen name="digitsTextSize">15sp</dimen>
+    <dimen name="buttonTextSize">14dp</dimen>
+    
+    <dimen name="buttonTextSizeLarger">16dp</dimen>
+     <dimen name="largerButtonTextSizeLarger">22dp</dimen>
+    <dimen name="secondaryTextSizeSmall">12dp</dimen>
+    <dimen name="secondaryTextSize">12dp</dimen>
+
+    <dimen name="calculatorButtonMargin">2dp</dimen>
+	
+    <dimen name="largecalculatorButtonMargin">7dp</dimen>
+    
+    	
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--
+         Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html
+    -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+
+</resources>

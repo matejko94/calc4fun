@@ -1,0 +1,105 @@
+<resources>
+
+    <style name="calculatorBackground" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:background">@color/calculatorBackground</item>
+    </style>
+
+
+    
+<!-- 
+    <style name="modeView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/digitsTextSize</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/digitsText</item>
+        <item name="android:background">@null</item>
+    </style>
+
+-->
+    
+    <!-- za layout -->
+    <style name="buttonLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="textLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+   <!--  -->
+   
+   
+    <style name="secondaryTextElementInRow" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/secondFunctionTextColor</item>
+        <item name="android:textSize">@dimen/secondaryTextSize</item>
+    </style>
+
+    <style name="secondaryTextElementSmallInRow" parent="secondaryTextElementInRow">
+        <item name="android:textSize">@dimen/secondaryTextSizeSmall</item>
+    </style>
+
+    <style name="calculatorButtonInRow" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/buttonTextSize</item>
+    </style>
+    
+    <!-- navadni teksti in osnovne nastavitve -->
+
+    <style name="darkerButtonInRow" parent="calculatorButtonInRow">
+        <item name="android:background">@drawable/darker_button_background</item>
+        <item name="android:textColor">@color/darkerButtonTextColor</item>
+    </style>
+
+    <style name="lighterButtonInRow" parent="calculatorButtonInRow">
+        <item name="android:background">@drawable/lighter_button_background</item>
+        <item name="android:textColor">@color/lighterButtonTextColor</item>
+    </style>
+
+
+    <style name="redButtonInRow" parent="calculatorButtonInRow">
+        <item name="android:background">@drawable/red_button_background</item>
+        <item name="android:textColor">@color/redButtonTextColor</item>
+    </style>
+
+    
+    <!-- vecji teksti -->
+    <style name="darkerButtonLargerInRow" parent="darkerButtonInRow">
+        <item name="android:textSize">@dimen/buttonTextSizeLarger</item>
+    </style>
+
+    <style name="lighterButtonLargerInRow" parent="lighterButtonInRow">
+        <item name="android:textSize">@dimen/buttonTextSizeLarger</item>
+    </style>
+
+    <style name="redButtonLargerInRow" parent="redButtonInRow">
+        <item name="android:textSize">@dimen/buttonTextSizeLarger</item>
+    </style>
+    
+    
+    <style name="btnStylemedium_wood" parent="@android:style/Widget.Button">
+       <item name="android:textSize">15sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">#FFFFFF</item>
+       <item name="android:gravity">center</item>
+       <item name="android:shadowColor">#000000</item>
+       <item name="android:shadowDx">1</item>
+       <item name="android:shadowDy">1</item>
+       <item name="android:shadowRadius">0.6</item>
+       <item name="android:background">@drawable/wood_button_background_pressed</item>
+       <item name="android:padding">10dip</item>
+   </style>
+
+    
+    
+</resources>

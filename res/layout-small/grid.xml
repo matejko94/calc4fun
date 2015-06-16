@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/appvertical1"
+    >
+	
+
+<GridView 
+    android:id="@+id/grdButtons"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:columnWidth="40dp"
+    android:numColumns="5"
+    android:verticalSpacing="5dp"
+    android:horizontalSpacing="5dp"
+  
+    android:stretchMode="columnWidth"
+    android:gravity="center"/>
+  
+    
+
+</LinearLayout>

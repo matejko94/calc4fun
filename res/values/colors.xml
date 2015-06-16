@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="calculatorBackground">#585858</color>
+    <color name="digitsText">#1B1E1C</color>
+    <color name="digitsBackground">#A0B2A5</color>
+    <color name="digitsBackgroundBorderStroke">#424242</color>
+
+    <color name="secondFunctionTextColor">#F7E296</color>
+    <color name="calculatorButtonFocusStrokeColor">#FFFFFF</color>
+    <color name="darkerButtonTextColor">#FFFFFF</color>
+    <color name="lighterButtonTextColor">#FFFFFF</color>
+    <color name="redButtonTextColor">#FFFFFF</color>
+    <color name="woodButtonTextColor">#FFFFFF</color>
+    <color name="darkgreen">#006400</color>
+    <color name="darkgrey">#696969</color>
+     <color name="black">#000000</color>
+    <color name="lightyellow">#ffffa4</color>
+    <color name="LightSkyBlue">#33b5e5</color>
+     <color name="LightSkyWhite">#ececec</color>
+       <color name="red">#ffff0000</color>
+      <color name="white">#ffffffff</color>
+</resources>

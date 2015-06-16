@@ -1,0 +1,55 @@
+# view AndroidManifest.xml #generated:57
+-keep class com.Converter.myConverter.Currency.CurrencyConverterActivity { <init>(...); }
+
+# view large\res/layout-large/listpreference.xml #generated:14
+# view large\res/layout-large/news_articles.xml #generated:29
+# view xlarge\res/layout-xlarge/news_articles.xml #generated:29
+-keep class com.Converter.myConverter.Unit.ArticleFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.Converter.myConverter.Unit.EnotaMainHendler { <init>(...); }
+
+# view large\res/layout-large/listpreference.xml #generated:7
+# view large\res/layout-large/news_articles.xml #generated:23
+# view xlarge\res/layout-xlarge/news_articles.xml #generated:23
+-keep class com.Converter.myConverter.Unit.HeadlinesFragment { <init>(...); }
+
+# view res/layout/drawsurface.xml #generated:18
+-keep class com.calculator.grap.GraphPanel { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.calculator.grap.GraphingTab { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.calculator.mycalculator.CalculatorGUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.calculator.mycalculator.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.calculator.position.PositionButtons { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.example.mycalc.ListviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view large\res/layout-large/customview.xml #generated:11
+# view normal\res/layout-normal/customview.xml #generated:11
+# view res/layout/customview.xml #generated:11
+# view res/layout/drawsurface.xml #generated:10
+# view res/layout/editbuttons.xml #generated:15
+# view res/layout/main.xml #generated:14
+# view small\res/layout-small/customview.xml #generated:11
+# view xlarge\res/layout-xlarge/customview.xml #generated:11
+-keep class com.google.android.gms.ads.AdView { <init>(...); }
+
+# view res/layout/fragment_layout.xml #generated:6
+# view xlarge\res/layout-xlarge/fragment_layout.xml #generated:12
+-keep class edu.dartmouth.cs.FragmentLayout$TitlesFragment { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:14
+# onClick res/layout/activity_main.xml #generated:21
+-keepclassmembers class * { *** onSelectFragment(...); }
+

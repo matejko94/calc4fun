@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/angle">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues"
+            android:key="angle"
+            android:selectable="true"
+            android:title="Angle" />
+                <CheckBoxPreference
+            android:key="separator"
+            android:title="Thousands separators" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/graphp">
+
+        <!-- <Preference   android:layout="@layout/cordinat" android:title="Graph " android:key="graph"/> -->
+        <EditTextPreference
+            android:key="minx"
+            android:title="Min X" android:defaultValue="-10"/>
+        <EditTextPreference
+            android:key="maxx"
+            android:title="Max X" android:defaultValue="10"/>
+        <EditTextPreference
+            android:key="miny"
+            android:title="Min Y" android:defaultValue="-10"/>
+        <EditTextPreference
+            android:key="maxy"
+            android:title="max Y" android:defaultValue="10"/>
+
+        <CheckBoxPreference
+            android:key="grid"
+            android:title="Grid" android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/history">
+        <ListPreference
+            
+            android:entries="@array/listHistoryArray"
+            android:entryValues="@array/listHistoryValues"
+            android:key="historysize"
+                        
+            android:selectable="true"
+            android:title="History size" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

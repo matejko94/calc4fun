@@ -1,0 +1,10 @@
+bit, 1, 0
+byte 8,0
+kilo_byte, 8192,0,0
+mega_byte, 8388608,0
+giga_byte, 811934582,0
+tera_byte, 8.7960e+12,0
+kbit_per_sec, 1000,0
+mbit_per_sec, 1000000,0
+gbit_per_sec, 1000000000,0
+

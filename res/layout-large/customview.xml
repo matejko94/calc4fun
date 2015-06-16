@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_unit_id" />
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+            android:paddingBottom="@dimen/calculatorPaddingBottom"
+    android:paddingLeft="@dimen/calculatorPaddingLeft"
+    android:paddingRight="@dimen/calculatorPaddingRight"
+    android:paddingTop="@dimen/calculatorPaddingTop"  >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+        <TextView
+            android:id="@+id/txtMemory"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="1sp"
+            android:layout_weight="6"
+            android:background="@drawable/stackview1"
+            android:gravity="left"
+            android:textColor="@color/darkgreen" />
+
+        <HorizontalScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="1sp"
+            android:layout_weight="1"
+            android:fillViewport="true" >
+
+            <TextView
+                android:id="@+id/txtStack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/stackview1"
+                android:gravity="right"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_weight="1"
+        android:fillViewport="true" >
+
+        <TextView
+            android:id="@+id/txtInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputview1"
+            android:textColor="@color/darkgreen"
+            android:textSize="26sp" />
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+ 
+    <LinearLayout style="@style/textLayout" >
+
+        <TextView
+            android:id="@+id/textview"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+           android:id="@+id/textview1"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+           android:id="@+id/textview2"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+           android:id="@+id/textview3"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview4"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview5"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout" 
+ android:id="@+id/test" >
+
+        <Button
+            android:id="@+id/button"
+            style="@style/lighterButtonInRow"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/lighterButtonInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/lighterButtonInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/lighterButtonInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/lighterButtonInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/lighterButtonInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/textLayout" >
+
+        <TextView
+            android:id="@+id/textview6"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview7"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview8"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus"/>
+
+        <TextView
+            android:id="@+id/textview9"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview10"
+            style="@style/secondaryTextElementSmallInRow"
+            android:text="@string/plus"  />
+
+        <TextView
+            android:id="@+id/textview11"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" 
+             />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout"
+        android:id="@+id/test1" >
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/lighterButtonInRow"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus"/>
+            
+            <Button
+            android:id="@+id/button7"
+            style="@style/lighterButtonInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/lighterButtonInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/lighterButtonInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/lighterButtonInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/lighterButtonInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:text="@string/plus"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/textLayout" >
+
+        <TextView
+            android:id="@+id/textview12"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview13"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview14"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview15"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview16"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview17"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout" 
+         android:id="@+id/test2" >
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus"/>
+
+        <Button
+            android:id="@+id/button14"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button15"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button16"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button17"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+    </LinearLayout>
+
+    <!--
+   <LinearLayout style="@style/textLayout" >
+
+        <TextView
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/blank" />
+
+        <TextView
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/blank" />
+
+        <TextView
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/blank" />
+
+        <TextView
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/blank" />
+
+        <TextView
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/blank" />
+    </LinearLayout>
+
+   <LinearLayout style="@style/buttonLayout" >
+        <Button
+            android:id="@+id/modulus"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            
+            android:text="@string/modulus" />
+
+        <Button
+            android:id="@+id/percent"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            
+            android:text="@string/percent" />
+
+        <Button
+            android:id="@+id/pi"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            
+            android:text="@string/pi" />
+
+        <Button
+            android:id="@+id/euler"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            
+            android:text="@string/euler" />
+
+        <Button
+            android:id="@+id/x"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            
+            android:text="@string/x" />
+    </LinearLayout>
+    -->
+
+    <LinearLayout style="@style/textLayout" >
+
+        <TextView
+            android:id="@+id/textview18"
+            style="@style/secondaryTextElementInRow"
+             android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview19"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview20"
+            style="@style/secondaryTextElementInRow"
+             android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview21"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview22"
+            style="@style/secondaryTextElementInRow"
+             android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout"
+         android:id="@+id/test4"  >
+
+        <Button
+            android:id="@+id/button18"
+            style="@style/darkerButtonLargerInRow"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button19"
+            style="@style/darkerButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button20"
+            style="@style/darkerButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button21"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button22"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/textLayout" >
+
+        <TextView
+            android:id="@+id/textview23"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview24"
+            style="@style/secondaryTextElementInRow"
+             android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview25"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview26"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview27"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout" 
+         android:id="@+id/test5" >
+
+        <Button
+            android:id="@+id/button23"
+            style="@style/darkerButtonLargerInRow"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus"/>
+
+        <Button
+            android:id="@+id/button24"
+            style="@style/darkerButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button25"
+            style="@style/darkerButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+             android:id="@+id/button26"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+           android:id="@+id/button27"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/textLayout" >
+
+        <TextView
+            android:id="@+id/textview28"
+            style="@style/secondaryTextElementInRow"
+             android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview29"
+            style="@style/secondaryTextElementInRow"
+             android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview30"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview31"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview32"
+            style="@style/secondaryTextElementInRow"
+             android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout"
+         android:id="@+id/test6"  >
+
+        <Button
+             android:id="@+id/button28"
+            style="@style/darkerButtonLargerInRow"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button29"
+            style="@style/darkerButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button30"
+            style="@style/darkerButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button31"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button32"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/textLayout" >
+
+        <TextView
+            android:id="@+id/textview33"
+            style="@style/secondaryTextElementSmallInRow"
+             android:text="@string/plus"/>
+
+        <TextView
+            android:id="@+id/textview34"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview35"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview36"
+            style="@style/secondaryTextElementInRow"
+             android:text="@string/plus" />
+
+        <TextView
+            android:id="@+id/textview37"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus"/>
+        
+                <TextView
+            android:id="@+id/textview38"
+            style="@style/secondaryTextElementInRow"
+            android:text="@string/plus"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonLayout" 
+         android:id="@+id/test7" >
+
+        <Button
+             android:id="@+id/button33"
+            style="@style/darkerButtonLargerInRow"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+             android:id="@+id/button34"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button35"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus"/>
+
+        <Button
+             android:id="@+id/button36"
+            style="@style/woodButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button37"
+            style="@style/redButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+            android:layout_marginRight="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/button38"
+            style="@style/lighterButtonLargerInRow"
+            android:layout_marginLeft="@dimen/calculatorButtonMargin"
+             android:text="@string/plus" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

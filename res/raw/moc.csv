@@ -1,0 +1,6 @@
+#ime enote, ptretvorba v osnovni tip,  vidnost Opomba: tista vrednost ki je enaka 1 je osnovna
+newtons             , 1                 , 0
+kilo_newtons, 1000,0
+pound_forces        , 4.448221615       , 0
+poundals            , 0.138254954       , 0
+kilogram_forces     , 9.80665           , 0

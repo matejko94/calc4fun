@@ -1,0 +1,16 @@
+#ime enote, ptretvorba v osnovni tip,  vidnost Opomba: tista vrednost ki je enaka 1 je osnovna
+micrometers        , 1e-6             , 0
+millimeters        , 1e-3             , 0
+centimeters        , 1e-2             , 0
+decimeters         , 1e-1             , 0
+meters             , 1                , 0
+dekameters         , 1e1              , 0
+hectometers        , 1e2              , 0
+kilometers         , 1e3              , 0
+megameters         , 1e6              , 0
+inches             , 0.0254           , 0
+feet               , 0.3048           , 0
+yards              , 0.9144           , 0
+miles              , 1609.344         , 0
+nautical_miles     , 1852             , 0
+astronomical_units , 149597870700     , 0

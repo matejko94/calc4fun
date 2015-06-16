@@ -1,0 +1,11 @@
+#ime enote, ptretvorba v osnovni tip,  vidnost Opomba: tista vrednost ki je enaka 1 je osnovna
+joules                  , 1                 , 0
+tons_of_tnt             , 4.184e9           , 0
+electronvolts           , 1.60217733e-19    , 0
+ergs                    , 1e-7              , 0
+british_thermal_units   , 1054.5            , 0
+killowatt_hours         , 3.6e6             , 0
+calories                , 4.1868            , 0
+kilocalories            , 4186.8            , 0
+foot_pounds             , 0.04214011009     , 0
+horsepower_hours        , 2684519.537696    , 0

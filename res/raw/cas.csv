@@ -1,0 +1,11 @@
+#ime enote, ptretvorba v osnovni tip,  vidnost Opomba: tista vrednost ki je enaka 1 je osnovna
+picoseconds         , 1e-12             , 1
+nanoseconds         , 1e-9              , 1
+milliseconds        , 0.001             , 1
+seconds             , 1                 , 0
+minutes             , 60                , 0
+hours               , 3600              , 0
+days                , 86400             , 0
+weeks               , 604800            , 0
+months              , 2629740           , 1
+years               , 3.15569526e7      , 1
